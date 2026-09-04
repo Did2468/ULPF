@@ -1,0 +1,1016 @@
+nova-api.log.1.2017-05-16_13:53:08 2017-05-16 00:00:00.008 25746 INFO nova.osapi_compute.wsgi.server [req-38101a0b-2096-447d-96ea-a692162415ae 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] 10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 1893 time: 0.2477829
+nova-api.log.1.2017-05-16_13:53:08 2017-05-16 00:00:00.272 25746 INFO nova.osapi_compute.wsgi.server [req-9bc36dd9-91c5-4314-898a-47625eb93b09 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] 10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 1893 time: 0.2577181
+nova-api.log.1.2017-05-16_13:53:08 2017-05-16 00:00:01.551 25746 INFO nova.osapi_compute.wsgi.server [req-55db2d8d-cdb7-4b4b-993b-429be84c0c3e 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] 10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 1893 time: 0.2731631
+nova-api.log.1.2017-05-16_13:53:08 2017-05-16 00:00:01.813 25746 INFO nova.osapi_compute.wsgi.server [req-2a3dc421-6604-42a7-9390-a18dc824d5d6 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] 10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 1893 time: 0.2580249
+nova-api.log.1.2017-05-16_13:53:08 2017-05-16 00:00:03.091 25746 INFO nova.osapi_compute.wsgi.server [req-939eb332-c1c1-4e67-99b8-8695f8f1980a 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] 10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 1893 time: 0.2727931
+nova-api.log.1.2017-05-16_13:53:08 2017-05-16 00:00:03.358 25746 INFO nova.osapi_compute.wsgi.server [req-b6a4fa91-7414-432a-b725-52b5613d3ca3 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] 10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 1893 time: 0.2642131
+nova-compute.log.1.2017-05-16_13:55:31 2017-05-16 00:00:04.500 2931 INFO nova.compute.manager [req-3ea4052c-895d-4b64-9e2d-04d64c4d94ab - - - - -] [instance: b9000564-fe1a-409b-b8cc-1e88b294cd1d] VM Started (Lifecycle Event)
+nova-compute.log.1.2017-05-16_13:55:31 2017-05-16 00:00:04.562 2931 INFO nova.compute.manager [req-3ea4052c-895d-4b64-9e2d-04d64c4d94ab - - - - -] [instance: b9000564-fe1a-409b-b8cc-1e88b294cd1d] VM Paused (Lifecycle Event)
+nova-compute.log.1.2017-05-16_13:55:31 2017-05-16 00:00:04.693 2931 INFO nova.compute.manager [req-3ea4052c-895d-4b64-9e2d-04d64c4d94ab - - - - -] [instance: b9000564-fe1a-409b-b8cc-1e88b294cd1d] During sync_power_state the instance has a pending task (spawning). Skip.
+nova-api.log.1.2017-05-16_13:53:08 2017-05-16 00:00:04.789 25746 INFO nova.osapi_compute.wsgi.server [req-bbfc3fb8-7cb3-4ac8-801e-c893d1082762 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] 10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 1893 time: 0.4256971
+nova-api.log.1.2017-05-16_13:53:08 2017-05-16 00:00:05.060 25746 INFO nova.osapi_compute.wsgi.server [req-31826992-8435-4e03-bc09-ba9cca2d8ef9 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] 10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 1893 time: 0.2661140
+nova-compute.log.1.2017-05-16_13:55:31 2017-05-16 00:00:05.185 2931 INFO nova.virt.libvirt.imagecache [req-addc1839-2ed5-4778-b57e-5854eb7b8b09 - - - - -] image 0673dd71-34c5-4fbb-86c4-40623fbe45b4 at (/var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742): checking
+nova-compute.log.1.2017-05-16_13:55:31 2017-05-16 00:00:05.186 2931 INFO nova.virt.libvirt.imagecache [req-addc1839-2ed5-4778-b57e-5854eb7b8b09 - - - - -] image 0673dd71-34c5-4fbb-86c4-40623fbe45b4 at (/var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742): in use: on this node 1 local, 0 on other nodes sharing this instance storage
+nova-compute.log.1.2017-05-16_13:55:31 2017-05-16 00:00:05.367 2931 INFO nova.virt.libvirt.imagecache [req-addc1839-2ed5-4778-b57e-5854eb7b8b09 - - - - -] Active base files: /var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742
+nova-api.log.1.2017-05-16_13:53:08 2017-05-16 00:00:06.321 25746 INFO nova.osapi_compute.wsgi.server [req-7160b3e7-676b-498f-b147-7759d8eaea76 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] 10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 1893 time: 0.2563808
+nova-api.log.1.2017-05-16_13:53:08 2017-05-16 00:00:06.584 25746 INFO nova.osapi_compute.wsgi.server [req-e46f1fc1-61ce-4673-b3c7-f8bd94554273 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] 10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 1893 time: 0.2580891
+nova-api.log.1.2017-05-16_13:53:08 2017-05-16 00:00:07.864 25746 INFO nova.osapi_compute.wsgi.server [req-546e2e6a-b85e-434a-91dc-53a0a9124a4f 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] 10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 1893 time: 0.2733629
+nova-api.log.1.2017-05-16_13:53:08 2017-05-16 00:00:08.137 25746 INFO nova.osapi_compute.wsgi.server [req-e2c35e53-06d3-4feb-84b9-705c94d40e5b 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] 10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 1893 time: 0.2694771
+nova-api.log.1.2017-05-16_13:53:08 2017-05-16 00:00:09.411 25746 INFO nova.osapi_compute.wsgi.server [req-ce9c8a59-c9ba-43b1-9735-318ceabc9216 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] 10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 1893 time: 0.2692339
+nova-api.log.1.2017-05-16_13:53:08 2017-05-16 00:00:09.692 25746 INFO nova.osapi_compute.wsgi.server [req-e1da47c6-0f46-4ce8-940c-05397a5fab9e 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] 10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 1893 time: 0.2777061
+nova-api.log.1.2017-05-16_13:53:08 2017-05-16 00:00:10.279 25743 INFO nova.api.openstack.compute.server_external_events [req-ab451068-9756-4ad9-9d18-5ceaa6424627 f7b8d1f1d4d44643b07fa10ca7d021fb e9746973ac574c6b8a9e8857f56a7608 - - -] Creating event network-vif-plugged:e3871ffd-5cd5-4287-bddd-3529f7b59515 for instance b9000564-fe1a-409b-b8cc-1e88b294cd1d
+nova-api.log.1.2017-05-16_13:53:08 2017-05-16 00:00:10.285 25743 INFO nova.osapi_compute.wsgi.server [req-ab451068-9756-4ad9-9d18-5ceaa6424627 f7b8d1f1d4d44643b07fa10ca7d021fb e9746973ac574c6b8a9e8857f56a7608 - - -] 10.11.10.1 "POST /v2/e9746973ac574c6b8a9e8857f56a7608/os-server-external-events HTTP/1.1" status: 200 len: 380 time: 0.0913219
+nova-compute.log.1.2017-05-16_13:55:31 2017-05-16 00:00:10.296 2931 INFO nova.compute.manager [req-3ea4052c-895d-4b64-9e2d-04d64c4d94ab - - - - -] [instance: b9000564-fe1a-409b-b8cc-1e88b294cd1d] VM Resumed (Lifecycle Event)
+nova-compute.log.1.2017-05-16_13:55:31 2017-05-16 00:00:10.302 2931 INFO nova.virt.libvirt.driver [-] [instance: b9000564-fe1a-409b-b8cc-1e88b294cd1d] Instance spawned successfully.
+nova-compute.log.1.2017-05-16_13:55:31 2017-05-16 00:00:10.303 2931 INFO nova.compute.manager [req-8e64797b-fb99-4c8a-87e5-9a8de673412f 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] [instance: b9000564-fe1a-409b-b8cc-1e88b294cd1d] Took 19.05 seconds to spawn the instance on the hypervisor.
+nova-compute.log.1.2017-05-16_13:55:31 2017-05-16 00:00:10.416 2931 INFO nova.compute.manager [req-3ea4052c-895d-4b64-9e2d-04d64c4d94ab - - - - -] [instance: b9000564-fe1a-409b-b8cc-1e88b294cd1d] During sync_power_state the instance has a pending task (spawning). Skip.
+nova-compute.log.1.2017-05-16_13:55:31 2017-05-16 00:00:10.417 2931 INFO nova.compute.manager [req-3ea4052c-895d-4b64-9e2d-04d64c4d94ab - - - - -] [instance: b9000564-fe1a-409b-b8cc-1e88b294cd1d] VM Resumed (Lifecycle Event)
+nova-compute.log.1.2017-05-16_13:55:31 2017-05-16 00:00:10.421 2931 INFO nova.virt.libvirt.imagecache [req-addc1839-2ed5-4778-b57e-5854eb7b8b09 - - - - -] image 0673dd71-34c5-4fbb-86c4-40623fbe45b4 at (/var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742): checking
+nova-compute.log.1.2017-05-16_13:55:31 2017-05-16 00:00:10.424 2931 INFO nova.virt.libvirt.imagecache [req-addc1839-2ed5-4778-b57e-5854eb7b8b09 - - - - -] image 0673dd71-34c5-4fbb-86c4-40623fbe45b4 at (/var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742): in use: on this node 1 local, 0 on other nodes sharing this instance storage
+nova-compute.log.1.2017-05-16_13:55:31 2017-05-16 00:00:10.470 2931 INFO nova.compute.manager [req-8e64797b-fb99-4c8a-87e5-9a8de673412f 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] [instance: b9000564-fe1a-409b-b8cc-1e88b294cd1d] Took 19.84 seconds to build instance.
+nova-compute.log.1.2017-05-16_13:55:31 2017-05-16 00:00:10.600 2931 INFO nova.virt.libvirt.imagecache [req-addc1839-2ed5-4778-b57e-5854eb7b8b09 - - - - -] Active base files: /var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742
+nova-api.log.1.2017-05-16_13:53:08 2017-05-16 00:00:10.978 25746 INFO nova.osapi_compute.wsgi.server [req-d81279b2-d9df-48b7-9c36-edab3801c067 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] 10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 1910 time: 0.2808621
+nova-api.log.1.2017-05-16_13:53:08 2017-05-16 00:00:11.243 25746 INFO nova.osapi_compute.wsgi.server [req-22455aab-13cf-4045-92e8-65371ef51485 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] 10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 1910 time: 0.2603891
+nova-compute.log.1.2017-05-16_13:55:31 2017-05-16 00:00:13.658 2931 INFO nova.compute.resource_tracker [req-addc1839-2ed5-4778-b57e-5854eb7b8b09 - - - - -] Auditing locally available compute resources for node cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us
+nova-compute.log.1.2017-05-16_13:55:31 2017-05-16 00:00:14.265 2931 INFO nova.compute.resource_tracker [req-addc1839-2ed5-4778-b57e-5854eb7b8b09 - - - - -] Total usable vcpus: 16, total allocated vcpus: 1
+nova-compute.log.1.2017-05-16_13:55:31 2017-05-16 00:00:14.266 2931 INFO nova.compute.resource_tracker [req-addc1839-2ed5-4778-b57e-5854eb7b8b09 - - - - -] Final resource view: name=cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us phys_ram=64172MB used_ram=2560MB phys_disk=15GB used_disk=20GB total_vcpus=16 used_vcpus=1 pci_stats=[]
+nova-compute.log.1.2017-05-16_13:55:31 2017-05-16 00:00:14.329 2931 INFO nova.compute.resource_tracker [req-addc1839-2ed5-4778-b57e-5854eb7b8b09 - - - - -] Compute_service record updated for cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us:cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us
+nova-compute.log.1.2017-05-16_13:55:31 2017-05-16 00:00:15.141 2931 INFO nova.virt.libvirt.imagecache [req-addc1839-2ed5-4778-b57e-5854eb7b8b09 - - - - -] image 0673dd71-34c5-4fbb-86c4-40623fbe45b4 at (/var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742): checking
+nova-compute.log.1.2017-05-16_13:55:31 2017-05-16 00:00:15.142 2931 INFO nova.virt.libvirt.imagecache [req-addc1839-2ed5-4778-b57e-5854eb7b8b09 - - - - -] image 0673dd71-34c5-4fbb-86c4-40623fbe45b4 at (/var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742): in use: on this node 1 local, 0 on other nodes sharing this instance storage
+nova-compute.log.1.2017-05-16_13:55:31 2017-05-16 00:00:15.318 2931 INFO nova.virt.libvirt.imagecache [req-addc1839-2ed5-4778-b57e-5854eb7b8b09 - - - - -] Active base files: /var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742
+nova-api.log.1.2017-05-16_13:53:08 2017-05-16 00:00:16.795 25783 INFO nova.metadata.wsgi.server [req-b40b44ea-c721-4bc4-b1cd-bb238982ede4 - - - - -] 10.11.21.122,10.11.10.1 "GET /openstack/2012-08-10/meta_data.json HTTP/1.1" status: 200 len: 264 time: 0.2451560
+nova-api.log.1.2017-05-16_13:53:08 2017-05-16 00:00:16.806 25783 INFO nova.metadata.wsgi.server [-] 10.11.21.122,10.11.10.1 "GET /openstack/2013-10-17 HTTP/1.1" status: 200 len: 157 time: 0.0008290
+nova-api.log.1.2017-05-16_13:53:08 2017-05-16 00:00:17.120 25786 INFO nova.metadata.wsgi.server [req-f9565d6d-171c-408f-8b5f-9e9792826f42 - - - - -] 10.11.21.122,10.11.10.1 "GET /openstack/2013-10-17/vendor_data.json HTTP/1.1" status: 200 len: 124 time: 0.2197890
+nova-api.log.1.2017-05-16_13:53:08 2017-05-16 00:00:17.441 25793 INFO nova.metadata.wsgi.server [req-ed0b5830-26a8-4484-8164-feaebe737259 - - - - -] 10.11.21.122,10.11.10.1 "GET /openstack/2013-10-17/vendor_data.json HTTP/1.1" status: 200 len: 124 time: 0.2368760
+nova-api.log.1.2017-05-16_13:53:08 2017-05-16 00:00:17.504 25746 INFO nova.osapi_compute.wsgi.server [req-c53a921a-16c7-422e-8c9d-c922a720d047 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] 10.11.10.1 "DELETE /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/b9000564-fe1a-409b-b8cc-1e88b294cd1d HTTP/1.1" status: 204 len: 203 time: 0.2534380
+nova-api.log.1.2017-05-16_13:53:08 2017-05-16 00:00:17.531 25793 INFO nova.metadata.wsgi.server [-] 10.11.21.122,10.11.10.1 "GET /openstack/2013-10-17/user_data HTTP/1.1" status: 404 len: 176 time: 0.0010660
+nova-compute.log.1.2017-05-16_13:55:31 2017-05-16 00:00:17.541 2931 INFO nova.compute.manager [req-c53a921a-16c7-422e-8c9d-c922a720d047 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] [instance: b9000564-fe1a-409b-b8cc-1e88b294cd1d] Terminating instance
+nova-compute.log.1.2017-05-16_13:55:31 2017-05-16 00:00:17.754 2931 INFO nova.virt.libvirt.driver [-] [instance: b9000564-fe1a-409b-b8cc-1e88b294cd1d] Instance destroyed successfully.
+nova-api.log.1.2017-05-16_13:53:08 2017-05-16 00:00:17.773 25746 INFO nova.osapi_compute.wsgi.server [req-430aaf51-6fd5-4ede-bab8-7ca540ec136c 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] 10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 1916 time: 0.2658210
+nova-api.log.1.2017-05-16_13:53:08 2017-05-16 00:00:17.861 25784 INFO nova.metadata.wsgi.server [req-567bc482-6358-4db5-99c5-b011692d6cf8 - - - - -] 10.11.21.122,10.11.10.1 "GET /openstack/2013-10-17/meta_data.json HTTP/1.1" status: 200 len: 967 time: 0.2349129
+nova-compute.log.1.2017-05-16_13:55:31 2017-05-16 00:00:18.450 2931 INFO nova.virt.libvirt.driver [req-c53a921a-16c7-422e-8c9d-c922a720d047 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] [instance: b9000564-fe1a-409b-b8cc-1e88b294cd1d] Deleting instance files /var/lib/nova/instances/b9000564-fe1a-409b-b8cc-1e88b294cd1d_del
+nova-compute.log.1.2017-05-16_13:55:31 2017-05-16 00:00:18.451 2931 INFO nova.virt.libvirt.driver [req-c53a921a-16c7-422e-8c9d-c922a720d047 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] [instance: b9000564-fe1a-409b-b8cc-1e88b294cd1d] Deletion of /var/lib/nova/instances/b9000564-fe1a-409b-b8cc-1e88b294cd1d_del complete
+nova-compute.log.1.2017-05-16_13:55:31 2017-05-16 00:00:18.571 2931 INFO nova.compute.manager [req-c53a921a-16c7-422e-8c9d-c922a720d047 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] [instance: b9000564-fe1a-409b-b8cc-1e88b294cd1d] Took 1.03 seconds to destroy the instance on the hypervisor.
+nova-api.log.1.2017-05-16_13:53:08 2017-05-16 00:00:18.994 25746 INFO nova.osapi_compute.wsgi.server [req-1dd5c6bd-1bda-4e6d-b896-80dc15ab8c56 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] 10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 1874 time: 0.2161739
+nova-compute.log.1.2017-05-16_13:55:31 2017-05-16 00:00:19.050 2931 INFO nova.compute.manager [req-c53a921a-16c7-422e-8c9d-c922a720d047 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] [instance: b9000564-fe1a-409b-b8cc-1e88b294cd1d] Took 0.48 seconds to deallocate network for instance.
+nova-api.log.1.2017-05-16_13:53:08 2017-05-16 00:00:20.106 25746 INFO nova.osapi_compute.wsgi.server [req-750a3ab2-0fba-499a-bad0-f8584e777993 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] 10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 211 time: 0.1072969
+nova-compute.log.1.2017-05-16_13:55:31 2017-05-16 00:00:20.345 2931 WARNING nova.virt.libvirt.imagecache [req-addc1839-2ed5-4778-b57e-5854eb7b8b09 - - - - -] Unknown base file: /var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742
+nova-compute.log.1.2017-05-16_13:55:31 2017-05-16 00:00:20.346 2931 INFO nova.virt.libvirt.imagecache [req-addc1839-2ed5-4778-b57e-5854eb7b8b09 - - - - -] Removable base files: /var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742
+nova-compute.log.1.2017-05-16_13:55:31 2017-05-16 00:00:20.349 2931 INFO nova.virt.libvirt.imagecache [req-addc1839-2ed5-4778-b57e-5854eb7b8b09 - - - - -] Removing base or swap file: /var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742
+nova-api.log.1.2017-05-16_13:53:08 2017-05-16 00:00:21.067 25746 INFO nova.api.openstack.wsgi [req-0b851395-2895-44b9-8265-a27d0bb52910 f7b8d1f1d4d44643b07fa10ca7d021fb e9746973ac574c6b8a9e8857f56a7608 - - -] HTTP exception thrown: No instances found for any event
+2015-10-18 18:01:47,978 INFO [main] org.apache.hadoop.mapreduce.v2.app.MRAppMaster: Created MRAppMaster for application appattempt_1445144423722_0020_000001
+2015-10-18 18:01:48,963 INFO [main] org.apache.hadoop.mapreduce.v2.app.MRAppMaster: Executing with tokens:
+2015-10-18 18:01:48,963 INFO [main] org.apache.hadoop.mapreduce.v2.app.MRAppMaster: Kind: YARN_AM_RM_TOKEN, Service: , Ident: (appAttemptId { application_id { id: 20 cluster_timestamp: 1445144423722 } attemptId: 1 } keyId: -127633188)
+2015-10-18 18:01:49,228 INFO [main] org.apache.hadoop.mapreduce.v2.app.MRAppMaster: Using mapred newApiCommitter.
+2015-10-18 18:01:50,353 INFO [main] org.apache.hadoop.mapreduce.v2.app.MRAppMaster: OutputCommitter set in config null
+2015-10-18 18:01:50,509 INFO [main] org.apache.hadoop.mapreduce.v2.app.MRAppMaster: OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
+2015-10-18 18:01:50,556 INFO [main] org.apache.hadoop.yarn.event.AsyncDispatcher: Registering class org.apache.hadoop.mapreduce.jobhistory.EventType for class org.apache.hadoop.mapreduce.jobhistory.JobHistoryEventHandler
+2015-10-18 18:01:50,556 INFO [main] org.apache.hadoop.yarn.event.AsyncDispatcher: Registering class org.apache.hadoop.mapreduce.v2.app.job.event.JobEventType for class org.apache.hadoop.mapreduce.v2.app.MRAppMaster$JobEventDispatcher
+2015-10-18 18:01:50,556 INFO [main] org.apache.hadoop.yarn.event.AsyncDispatcher: Registering class org.apache.hadoop.mapreduce.v2.app.job.event.TaskEventType for class org.apache.hadoop.mapreduce.v2.app.MRAppMaster$TaskEventDispatcher
+2015-10-18 18:01:50,556 INFO [main] org.apache.hadoop.yarn.event.AsyncDispatcher: Registering class org.apache.hadoop.mapreduce.v2.app.job.event.TaskAttemptEventType for class org.apache.hadoop.mapreduce.v2.app.MRAppMaster$TaskAttemptEventDispatcher
+2015-10-18 18:01:50,572 INFO [main] org.apache.hadoop.yarn.event.AsyncDispatcher: Registering class org.apache.hadoop.mapreduce.v2.app.commit.CommitterEventType for class org.apache.hadoop.mapreduce.v2.app.commit.CommitterEventHandler
+2015-10-18 18:01:50,572 INFO [main] org.apache.hadoop.yarn.event.AsyncDispatcher: Registering class org.apache.hadoop.mapreduce.v2.app.speculate.Speculator$EventType for class org.apache.hadoop.mapreduce.v2.app.MRAppMaster$SpeculatorEventDispatcher
+2015-10-18 18:01:50,572 INFO [main] org.apache.hadoop.yarn.event.AsyncDispatcher: Registering class org.apache.hadoop.mapreduce.v2.app.rm.ContainerAllocator$EventType for class org.apache.hadoop.mapreduce.v2.app.MRAppMaster$ContainerAllocatorRouter
+2015-10-18 18:01:50,588 INFO [main] org.apache.hadoop.yarn.event.AsyncDispatcher: Registering class org.apache.hadoop.mapreduce.v2.app.launcher.ContainerLauncher$EventType for class org.apache.hadoop.mapreduce.v2.app.MRAppMaster$ContainerLauncherRouter
+2015-10-18 18:01:50,634 INFO [main] org.apache.hadoop.mapreduce.v2.jobhistory.JobHistoryUtils: Default file system [hdfs://msra-sa-41:9000]
+2015-10-18 18:01:50,666 INFO [main] org.apache.hadoop.mapreduce.v2.jobhistory.JobHistoryUtils: Default file system [hdfs://msra-sa-41:9000]
+2015-10-18 18:01:50,713 INFO [main] org.apache.hadoop.mapreduce.v2.jobhistory.JobHistoryUtils: Default file system [hdfs://msra-sa-41:9000]
+2015-10-18 18:01:50,728 INFO [main] org.apache.hadoop.mapreduce.jobhistory.JobHistoryEventHandler: Emitting job history data to the timeline server is not enabled
+2015-10-18 18:01:50,806 INFO [main] org.apache.hadoop.yarn.event.AsyncDispatcher: Registering class org.apache.hadoop.mapreduce.v2.app.job.event.JobFinishEvent$Type for class org.apache.hadoop.mapreduce.v2.app.MRAppMaster$JobFinishEventHandler
+2015-10-18 18:01:51,197 INFO [main] org.apache.hadoop.metrics2.impl.MetricsConfig: loaded properties from hadoop-metrics2.properties
+2015-10-18 18:01:51,306 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+2015-10-18 18:01:51,306 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: MRAppMaster metrics system started
+2015-10-18 18:01:51,322 INFO [main] org.apache.hadoop.mapreduce.v2.app.job.impl.JobImpl: Adding job token for job_1445144423722_0020 to jobTokenSecretManager
+2015-10-18 18:01:51,619 INFO [main] org.apache.hadoop.mapreduce.v2.app.job.impl.JobImpl: Not uberizing job_1445144423722_0020 because: not enabled; too many maps; too much input;
+2015-10-18 18:01:51,650 INFO [main] org.apache.hadoop.mapreduce.v2.app.job.impl.JobImpl: Input size for job job_1445144423722_0020 = 1256521728. Number of splits = 10
+2015-10-18 18:01:51,650 INFO [main] org.apache.hadoop.mapreduce.v2.app.job.impl.JobImpl: Number of reduces for job job_1445144423722_0020 = 1
+2015-10-18 18:01:51,650 INFO [main] org.apache.hadoop.mapreduce.v2.app.job.impl.JobImpl: job_1445144423722_0020Job Transitioned from NEW to INITED
+2015-10-18 18:01:51,650 INFO [main] org.apache.hadoop.mapreduce.v2.app.MRAppMaster: MRAppMaster launching normal, non-uberized, multi-container job job_1445144423722_0020.
+2015-10-18 18:01:51,713 INFO [main] org.apache.hadoop.ipc.CallQueueManager: Using callQueue class java.util.concurrent.LinkedBlockingQueue
+2015-10-18 18:01:51,775 INFO [Socket Reader #1 for port 62260] org.apache.hadoop.ipc.Server: Starting Socket Reader #1 for port 62260
+2015-10-18 18:01:51,791 INFO [main] org.apache.hadoop.yarn.factories.impl.pb.RpcServerFactoryPBImpl: Adding protocol org.apache.hadoop.mapreduce.v2.api.MRClientProtocolPB to the server
+2015-10-18 18:01:51,791 INFO [main] org.apache.hadoop.mapreduce.v2.app.client.MRClientService: Instantiated MRClientService at MININT-FNANLI5.fareast.corp.microsoft.com/10.86.169.121:62260
+2015-10-18 18:01:51,806 INFO [IPC Server Responder] org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2015-10-18 18:01:51,806 INFO [IPC Server listener on 62260] org.apache.hadoop.ipc.Server: IPC Server listener on 62260: starting
+2015-10-18 18:01:51,885 INFO [main] org.mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2015-10-18 18:01:51,900 INFO [main] org.apache.hadoop.http.HttpRequestLog: Http request log for http.requests.mapreduce is not defined
+2015-10-18 18:01:51,916 INFO [main] org.apache.hadoop.http.HttpServer2: Added global filter 'safety' (class=org.apache.hadoop.http.HttpServer2$QuotingInputFilter)
+2015-10-18 18:01:51,916 INFO [main] org.apache.hadoop.http.HttpServer2: Added filter AM_PROXY_FILTER (class=org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter) to context mapreduce
+2015-10-18 18:01:51,916 INFO [main] org.apache.hadoop.http.HttpServer2: Added filter AM_PROXY_FILTER (class=org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter) to context static
+2015-10-18 18:01:51,947 INFO [main] org.apache.hadoop.http.HttpServer2: adding path spec: /mapreduce/*
+2015-10-18 18:01:51,947 INFO [main] org.apache.hadoop.http.HttpServer2: adding path spec: /ws/*
+2015-10-18 18:01:51,963 INFO [main] org.apache.hadoop.http.HttpServer2: Jetty bound to port 62267
+2015-10-18 18:01:51,963 INFO [main] org.mortbay.log: jetty-6.1.26
+2015-10-18 18:01:52,088 INFO [main] org.mortbay.log: Extract jar:file:/D:/hadoop-2.6.0-localbox/share/hadoop/yarn/hadoop-yarn-common-2.6.0-SNAPSHOT.jar!/webapps/mapreduce to C:\Users\msrabi\AppData\Local\Temp\Jetty_0_0_0_0_62267_mapreduce____.8n7xum\webapp
+2015-10-18 18:01:52,728 INFO [main] org.mortbay.log: Started HttpServer2$SelectChannelConnectorWithSafeStartup@0.0.0.0:62267
+2015-10-18 18:01:52,728 INFO [main] org.apache.hadoop.yarn.webapp.WebApps: Web app /mapreduce started at 62267
+2015-10-18 18:01:53,400 INFO [main] org.apache.hadoop.yarn.webapp.WebApps: Registered webapp guice modules
+2015-10-18 18:01:53,400 INFO [main] org.apache.hadoop.ipc.CallQueueManager: Using callQueue class java.util.concurrent.LinkedBlockingQueue
+2015-10-18 18:01:53,447 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.speculate.DefaultSpeculator: JOB_CREATE job_1445144423722_0020
+2015-10-18 18:01:53,447 INFO [main] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerRequestor: nodeBlacklistingEnabled:true
+2015-10-18 18:01:53,447 INFO [main] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerRequestor: maxTaskFailuresPerNode is 3
+2015-10-18 18:01:53,447 INFO [main] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerRequestor: blacklistDisablePercent is 33
+2015-10-18 18:01:53,510 INFO [Socket Reader #1 for port 62270] org.apache.hadoop.ipc.Server: Starting Socket Reader #1 for port 62270
+2015-10-18 18:01:53,510 INFO [IPC Server listener on 62270] org.apache.hadoop.ipc.Server: IPC Server listener on 62270: starting
+2015-10-18 18:01:53,510 INFO [IPC Server Responder] org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2015-10-18 18:01:53,557 INFO [main] org.apache.hadoop.yarn.client.RMProxy: Connecting to ResourceManager at msra-sa-41/10.190.173.170:8030
+2015-10-18 18:01:53,713 INFO [main] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator: maxContainerCapability: <memory:8192, vCores:32>
+2015-10-18 18:01:53,713 INFO [main] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator: queue: default
+2015-10-18 18:01:53,713 INFO [main] org.apache.hadoop.mapreduce.v2.app.launcher.ContainerLauncherImpl: Upper limit on the thread pool size is 500
+2015-10-18 18:01:53,713 INFO [main] org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy: yarn.client.max-cached-nodemanagers-proxies : 0
+2015-10-18 18:01:53,744 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.JobImpl: job_1445144423722_0020Job Transitioned from INITED to SETUP
+2015-10-18 18:01:53,775 INFO [CommitterEvent Processor #0] org.apache.hadoop.mapreduce.v2.app.commit.CommitterEventHandler: Processing the event EventType: JOB_SETUP
+2015-10-18 18:01:53,822 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.JobImpl: job_1445144423722_0020Job Transitioned from SETUP to RUNNING
+2015-10-18 18:01:53,838 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-39.fareast.corp.microsoft.com to /default-rack
+2015-10-18 18:01:53,869 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-41.fareast.corp.microsoft.com to /default-rack
+2015-10-18 18:01:53,869 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskImpl: task_1445144423722_0020_m_000000 Task Transitioned from NEW to SCHEDULED
+2015-10-18 18:01:53,869 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-39.fareast.corp.microsoft.com to /default-rack
+2015-10-18 18:01:53,869 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-41.fareast.corp.microsoft.com to /default-rack
+2015-10-18 18:01:53,869 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskImpl: task_1445144423722_0020_m_000001 Task Transitioned from NEW to SCHEDULED
+2015-10-18 18:01:53,869 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-39.fareast.corp.microsoft.com to /default-rack
+2015-10-18 18:01:53,869 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-41.fareast.corp.microsoft.com to /default-rack
+2015-10-18 18:01:53,869 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskImpl: task_1445144423722_0020_m_000002 Task Transitioned from NEW to SCHEDULED
+2015-10-18 18:01:53,869 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-39.fareast.corp.microsoft.com to /default-rack
+2015-10-18 18:01:53,869 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-41.fareast.corp.microsoft.com to /default-rack
+2015-10-18 18:01:53,869 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskImpl: task_1445144423722_0020_m_000003 Task Transitioned from NEW to SCHEDULED
+2015-10-18 18:01:53,869 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-39.fareast.corp.microsoft.com to /default-rack
+2015-10-18 18:01:53,869 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-41.fareast.corp.microsoft.com to /default-rack
+2015-10-18 18:01:53,869 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskImpl: task_1445144423722_0020_m_000004 Task Transitioned from NEW to SCHEDULED
+2015-10-18 18:01:53,869 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-39.fareast.corp.microsoft.com to /default-rack
+2015-10-18 18:01:53,869 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-41.fareast.corp.microsoft.com to /default-rack
+2015-10-18 18:01:53,869 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskImpl: task_1445144423722_0020_m_000005 Task Transitioned from NEW to SCHEDULED
+2015-10-18 18:01:53,885 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-39.fareast.corp.microsoft.com to /default-rack
+2015-10-18 18:01:53,885 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-41.fareast.corp.microsoft.com to /default-rack
+2015-10-18 18:01:53,885 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskImpl: task_1445144423722_0020_m_000006 Task Transitioned from NEW to SCHEDULED
+2015-10-18 18:01:53,885 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-39.fareast.corp.microsoft.com to /default-rack
+2015-10-18 18:01:53,885 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-41.fareast.corp.microsoft.com to /default-rack
+2015-10-18 18:01:53,885 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskImpl: task_1445144423722_0020_m_000007 Task Transitioned from NEW to SCHEDULED
+2015-10-18 18:01:53,885 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-39.fareast.corp.microsoft.com to /default-rack
+2015-10-18 18:01:53,885 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-41.fareast.corp.microsoft.com to /default-rack
+2015-10-18 18:01:53,885 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskImpl: task_1445144423722_0020_m_000008 Task Transitioned from NEW to SCHEDULED
+2015-10-18 18:01:53,885 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-39.fareast.corp.microsoft.com to /default-rack
+2015-10-18 18:01:53,885 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-41.fareast.corp.microsoft.com to /default-rack
+2015-10-18 18:01:53,885 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskImpl: task_1445144423722_0020_m_000009 Task Transitioned from NEW to SCHEDULED
+2015-10-18 18:01:53,885 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskImpl: task_1445144423722_0020_r_000000 Task Transitioned from NEW to SCHEDULED
+2015-10-18 18:01:53,885 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl: attempt_1445144423722_0020_m_000000_0 TaskAttempt Transitioned from NEW to UNASSIGNED
+2015-10-18 18:01:53,885 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl: attempt_1445144423722_0020_m_000001_0 TaskAttempt Transitioned from NEW to UNASSIGNED
+2015-10-18 18:01:53,885 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl: attempt_1445144423722_0020_m_000002_0 TaskAttempt Transitioned from NEW to UNASSIGNED
+2015-10-18 18:01:53,885 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl: attempt_1445144423722_0020_m_000003_0 TaskAttempt Transitioned from NEW to UNASSIGNED
+2015-10-18 18:01:53,885 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl: attempt_1445144423722_0020_m_000004_0 TaskAttempt Transitioned from NEW to UNASSIGNED
+2015-10-18 18:01:53,885 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl: attempt_1445144423722_0020_m_000005_0 TaskAttempt Transitioned from NEW to UNASSIGNED
+2015-10-18 18:01:53,885 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl: attempt_1445144423722_0020_m_000006_0 TaskAttempt Transitioned from NEW to UNASSIGNED
+2015-10-18 18:01:53,885 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl: attempt_1445144423722_0020_m_000007_0 TaskAttempt Transitioned from NEW to UNASSIGNED
+2015-10-18 18:01:53,885 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl: attempt_1445144423722_0020_m_000008_0 TaskAttempt Transitioned from NEW to UNASSIGNED
+2016-09-28 04:30:30, Info                  CBS    Loaded Servicing Stack v6.1.7601.23505 with Core: C:\Windows\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_6.1.7601.23505_none_681aa442f6fed7f0\cbscore.dll
+2016-09-28 04:30:31, Info                  CSI    00000001@2016/9/27:20:30:31.455 WcpInitialize (wcp.dll version 0.0.0.6) called (stack @0x7fed806eb5d @0x7fef9fb9b6d @0x7fef9f8358f @0xff83e97c @0xff83d799 @0xff83db2f)
+2016-09-28 04:30:31, Info                  CSI    00000002@2016/9/27:20:30:31.458 WcpInitialize (wcp.dll version 0.0.0.6) called (stack @0x7fed806eb5d @0x7fefa006ade @0x7fef9fd2984 @0x7fef9f83665 @0xff83e97c @0xff83d799)
+2016-09-28 04:30:31, Info                  CSI    00000003@2016/9/27:20:30:31.458 WcpInitialize (wcp.dll version 0.0.0.6) called (stack @0x7fed806eb5d @0x7fefa1c8728 @0x7fefa1c8856 @0xff83e474 @0xff83d7de @0xff83db2f)
+2016-09-28 04:30:31, Info                  CBS    Ending TrustedInstaller initialization.
+2016-09-28 04:30:31, Info                  CBS    Starting the TrustedInstaller main loop.
+2016-09-28 04:30:31, Info                  CBS    TrustedInstaller service starts successfully.
+2016-09-28 04:30:31, Info                  CBS    SQM: Initializing online with Windows opt-in: False
+2016-09-28 04:30:31, Info                  CBS    SQM: Cleaning up report files older than 10 days.
+2016-09-28 04:30:31, Info                  CBS    SQM: Requesting upload of all unsent reports.
+2016-09-28 04:30:31, Info                  CBS    SQM: Failed to start upload with file pattern: C:\Windows\servicing\sqm\*_std.sqm, flags: 0x2 [HRESULT = 0x80004005 - E_FAIL]
+2016-09-28 04:30:31, Info                  CBS    SQM: Failed to start standard sample upload. [HRESULT = 0x80004005 - E_FAIL]
+2016-09-28 04:30:31, Info                  CBS    SQM: Queued 0 file(s) for upload with pattern: C:\Windows\servicing\sqm\*_all.sqm, flags: 0x6
+2016-09-28 04:30:31, Info                  CBS    SQM: Warning: Failed to upload all unsent reports. [HRESULT = 0x80004005 - E_FAIL]
+2016-09-28 04:30:31, Info                  CBS    No startup processing required, TrustedInstaller service was not set as autostart, or else a reboot is still pending.
+2016-09-28 04:30:31, Info                  CBS    NonStart: Checking to ensure startup processing was not required.
+2016-09-28 04:30:31, Info                  CSI    00000004 IAdvancedInstallerAwareStore_ResolvePendingTransactions (call 1) (flags = 00000004, progress = NULL, phase = 0, pdwDisposition = @0xb6fd90
+2016-09-28 04:30:31, Info                  CSI    00000005 Creating NT transaction (seq 1), objectname [6]"(null)"
+2016-09-28 04:30:31, Info                  CSI    00000006 Created NT transaction (seq 1) result 0x00000000, handle @0x214
+2016-09-28 04:30:31, Info                  CSI    00000007@2016/9/27:20:30:31.462 CSI perf trace:
+2016-09-28 04:30:31, Info                  CBS    NonStart: Success, startup processing not required as expected.
+2016-09-28 04:30:31, Info                  CBS    Startup processing thread terminated normally
+2016-09-28 04:30:31, Info                  CSI    00000008 CSI Store 4991456 (0x00000000004c29e0) initialized
+2016-09-28 04:30:31, Info                  CBS    Session: 30546173_4261722401 initialized by client WindowsUpdateAgent.
+2016-09-28 04:30:31, Info                  CBS    Session: 30546173_4262462443 initialized by client WindowsUpdateAgent.
+2016-09-28 04:30:31, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:31, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:31, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:31, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:31, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:31, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:31, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:31, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:31, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:31, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:31, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:31, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:31, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:31, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:31, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:31, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:31, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:31, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:31, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:31, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:31, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:31, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:31, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:31, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:31, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:31, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:31, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:31, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:31, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:31, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:31, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:31, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:31, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:31, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:31, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:31, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:31, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:31, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:31, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:31, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:31, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:31, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:31, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:31, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:31, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:31, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:31, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:31, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:31, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:31, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:31, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:31, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:31, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:31, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:31, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:31, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:31, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:31, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:31, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:31, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:31, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:31, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:31, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:31, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:31, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:31, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:31, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:31, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:31, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:31, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:31, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:31, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:31, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:31, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:31, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:31, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:31, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:31, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:31, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:31, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:31, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:31, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:31, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:31, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:31, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:31, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:31, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:31, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:31, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:31, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:31, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:31, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:31, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:31, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:31, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:31, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:31, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:31, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:31, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:31, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:31, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:31, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:31, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:31, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:32, Info                  CBS    Session: 30546173_4267072707 initialized by client WindowsUpdateAgent.
+2016-09-28 04:30:32, Info                  CBS    Failed to internally open package. [HRESULT = 0x800f0805 - CBS_E_INVALID_PACKAGE]
+2016-09-28 04:30:32, Info                  CBS    Session: 30546173_4268042763 initialized by client WindowsUpdateAgent.
+2016-09-28 04:30:32, Info                  CBS    Session: 30546173_4271022933 initialized by client WindowsUpdateAgent.
+2016-09-28 04:30:32, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:32, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:32, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:32, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:32, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:32, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:32, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:32, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:32, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:32, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:32, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:32, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:32, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:32, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:32, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:32, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:32, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:32, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:32, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:32, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:32, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:32, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:32, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:32, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:32, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:32, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:32, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:32, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:32, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:32, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:32, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:32, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:32, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:32, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:32, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:32, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:32, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:32, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:32, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:32, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:32, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:32, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:32, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:32, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:32, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:32, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:32, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:32, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:32, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:32, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:32, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:32, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:32, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:32, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:32, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:32, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:32, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:32, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:32, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:32, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:32, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:32, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:32, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:32, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:32, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:32, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:32, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:32, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:32, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:32, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:32, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:32, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:32, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:32, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:32, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:32, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:32, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:32, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:32, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:32, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:32, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:32, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:32, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:32, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:32, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:32, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:32, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:32, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:32, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:32, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:32, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:32, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:32, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:32, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:32, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:32, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:32, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:32, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:32, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:32, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:32, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:32, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:32, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:32, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:32, Info                  CBS    Session: 30546173_4275933214 initialized by client WindowsUpdateAgent.
+2016-09-28 04:30:33, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:33, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:33, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:33, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:33, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:33, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:33, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:33, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:33, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:33, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:33, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:33, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:33, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:33, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:33, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:33, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:33, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:33, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:33, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:33, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:33, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:33, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:33, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:33, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:33, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:33, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:33, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:33, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:33, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:33, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:33, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:33, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:33, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:33, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:33, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:33, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:33, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:33, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:33, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:33, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:33, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:33, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:33, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:33, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:33, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:33, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:33, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:33, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:33, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:33, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:33, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:33, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:33, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:33, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:33, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:33, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:33, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:33, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:33, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:33, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:33, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:33, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:33, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:33, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:33, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:33, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:33, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:33, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:33, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:33, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:33, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:33, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:33, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:33, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:33, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:33, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:33, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:33, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:33, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:33, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:33, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:33, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:33, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:33, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:33, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:33, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:33, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:33, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:33, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:33, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:33, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:33, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:33, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:33, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:33, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:33, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:33, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:33, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:33, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:33, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:33, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:33, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:33, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:33, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:33, Info                  CBS    Session: 30546173_4280593480 initialized by client WindowsUpdateAgent.
+2016-09-28 04:30:33, Info                  CBS    Failed to internally open package. [HRESULT = 0x800f0805 - CBS_E_INVALID_PACKAGE]
+2016-09-28 04:30:33, Info                  CBS    Session: 30546173_4280603481 initialized by client WindowsUpdateAgent.
+2016-09-28 04:30:33, Info                  CBS    Failed to internally open package. [HRESULT = 0x800f0805 - CBS_E_INVALID_PACKAGE]
+2016-09-28 04:30:33, Info                  CBS    Session: 30546173_4280613482 initialized by client WindowsUpdateAgent.
+2016-09-28 04:30:33, Info                  CBS    Failed to internally open package. [HRESULT = 0x800f0805 - CBS_E_INVALID_PACKAGE]
+2016-09-28 04:30:33, Info                  CBS    Session: 30546173_4280613483 initialized by client WindowsUpdateAgent.
+2016-09-28 04:30:33, Info                  CBS    Failed to internally open package. [HRESULT = 0x800f0805 - CBS_E_INVALID_PACKAGE]
+2016-09-28 04:30:33, Info                  CBS    Session: 30546173_4280623482 initialized by client WindowsUpdateAgent.
+2016-09-28 04:30:33, Info                  CBS    Failed to internally open package. [HRESULT = 0x800f0805 - CBS_E_INVALID_PACKAGE]
+2016-09-28 04:30:33, Info                  CBS    Session: 30546173_4280633483 initialized by client WindowsUpdateAgent.
+2016-09-28 04:30:33, Info                  CBS    Failed to internally open package. [HRESULT = 0x800f0805 - CBS_E_INVALID_PACKAGE]
+2016-09-28 04:30:33, Info                  CBS    Session: 30546173_4280633484 initialized by client WindowsUpdateAgent.
+2016-09-28 04:30:33, Info                  CBS    Failed to internally open package. [HRESULT = 0x800f0805 - CBS_E_INVALID_PACKAGE]
+2016-09-28 04:30:33, Info                  CBS    Session: 30546173_4281313522 initialized by client WindowsUpdateAgent.
+2016-09-28 04:30:33, Info                  CBS    Session: 30546173_4285113739 initialized by client WindowsUpdateAgent.
+2016-09-28 04:30:33, Info                  CBS    Read out cached package applicability for package: Package_for_KB3121255~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: 112, CurrentState:112
+2016-09-28 04:30:33, Info                  CBS    Session: 30546173_4286503818 initialized by client WindowsUpdateAgent.
+2016-09-28 04:30:33, Info                  CBS    Read out cached package applicability for package: Package_for_KB2656356~31bf3856ad364e35~amd64~~6.1.1.1, ApplicableState: 80, CurrentState:112
+2016-09-28 04:30:33, Info                  CBS    Session: 30546173_4286853838 initialized by client WindowsUpdateAgent.
+2016-09-28 04:30:33, Info                  CBS    Read out cached package applicability for package: Package_for_KB3108664~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: 112, CurrentState:112
+2016-09-28 04:30:33, Info                  CBS    Session: 30546173_4286873840 initialized by client WindowsUpdateAgent.
+2016-09-28 04:30:33, Info                  CBS    Read out cached package applicability for package: Package_for_KB3115858~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: 80, CurrentState:112
+2016-09-28 04:30:34, Info                  CBS    Session: 30546173_4289083966 initialized by client WindowsUpdateAgent.
+2016-09-28 04:30:34, Info                  CBS    Read out cached package applicability for package: Package_for_KB3127220~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: 112, CurrentState:112
+2016-09-28 04:30:34, Info                  CBS    Session: 30546173_4289704001 initialized by client WindowsUpdateAgent.
+2016-09-28 04:30:34, Info                  CBS    Read out cached package applicability for package: Package_for_KB3060716~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: 112, CurrentState:112
+2016-09-28 04:30:34, Info                  CBS    Session: 30546173_4294144255 initialized by client WindowsUpdateAgent.
+2016-09-28 04:30:34, Info                  CBS    Read out cached package applicability for package: Package_for_KB3006137~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: 112, CurrentState:112
+2016-09-28 04:30:34, Info                  CBS    Session: 30546173_4294174257 initialized by client WindowsUpdateAgent.
+2016-09-28 04:30:34, Info                  CBS    Read out cached package applicability for package: Package_for_KB3067903~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: 112, CurrentState:112
+2016-09-28 04:30:34, Info                  CBS    Session: 30546174_187017 initialized by client WindowsUpdateAgent.
+2016-09-28 04:30:34, Info                  CBS    Read out cached package applicability for package: Package_for_KB3086255~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: 112, CurrentState:112
+2016-09-28 04:30:34, Info                  CBS    Session: 30546174_857056 initialized by client WindowsUpdateAgent.
+2016-09-28 04:30:34, Info                  CBS    Read out cached package applicability for package: Package_for_KB3146706~31bf3856ad364e35~amd64~~6.1.1.2, ApplicableState: 112, CurrentState:112
+2016-09-28 04:30:34, Info                  CBS    Session: 30546174_1497092 initialized by client WindowsUpdateAgent.
+2016-09-28 04:30:34, Info                  CBS    Read out cached package applicability for package: Package_for_KB3182203~31bf3856ad364e35~amd64~~6.1.1.1, ApplicableState: 112, CurrentState:112
+2016-09-28 04:30:34, Info                  CBS    Session: 30546174_1767108 initialized by client WindowsUpdateAgent.
+2016-09-28 04:30:34, Info                  CBS    Read out cached package applicability for package: Package_for_KB3075226~31bf3856ad364e35~amd64~~6.1.1.1, ApplicableState: 112, CurrentState:112
+2016-09-28 04:30:34, Info                  CBS    Session: 30546174_2037123 initialized by client WindowsUpdateAgent.
+2016-09-28 04:30:35, Info                  CBS    Read out cached package applicability for package: Package_for_KB3185319~31bf3856ad364e35~amd64~~11.2.1.0, ApplicableState: 112, CurrentState:112
+2016-09-28 04:30:35, Info                  CBS    Session: 30546174_2217133 initialized by client WindowsUpdateAgent.
+2016-09-28 04:30:35, Info                  CBS    Session: 30546174_2817168 initialized by client WindowsUpdateAgent.
+2016-09-28 04:30:35, Info                  CBS    Read out cached package applicability for package: Package_for_KB3033929~31bf3856ad364e35~amd64~~6.1.1.1, ApplicableState: 80, CurrentState:112
+2016-09-28 04:30:35, Info                  CBS    Session: 30546174_8087469 initialized by client WindowsUpdateAgent.
+2016-09-28 04:30:35, Info                  CBS    Read out cached package applicability for package: Package_for_KB2978742~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: 112, CurrentState:112
+2016-09-28 04:30:35, Info                  CBS    Session: 30546174_9517551 initialized by client WindowsUpdateAgent.
+2016-09-28 04:30:35, Info                  CBS    Read out cached package applicability for package: Package_for_KB3177186~31bf3856ad364e35~amd64~~6.1.1.1, ApplicableState: 112, CurrentState:112
+2016-09-28 04:30:35, Info                  CBS    Session: 30546174_9817568 initialized by client WindowsUpdateAgent.
+2016-09-28 04:30:35, Info                  CBS    Read out cached package applicability for package: Package_for_KB3055642~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: 112, CurrentState:112
+2016-09-28 04:30:35, Info                  CBS    Session: 30546174_9927574 initialized by client WindowsUpdateAgent.
+2016-09-28 04:30:35, Info                  CBS    Read out cached package applicability for package: Package_for_KB3078601~31bf3856ad364e35~amd64~~6.1.1.5, ApplicableState: 112, CurrentState:112
+2016-09-28 04:30:35, Info                  CBS    Session: 30546174_10127586 initialized by client WindowsUpdateAgent.
+2016-09-28 04:30:35, Info                  CBS    Read out cached package applicability for package: Package_for_KB3147071~31bf3856ad364e35~amd64~~6.1.1.1, ApplicableState: 112, CurrentState:112
+2016-09-28 04:30:35, Info                  CBS    Session: 30546174_10517608 initialized by client WindowsUpdateAgent.
+2016-09-28 04:30:35, Info                  CBS    Read out cached package applicability for package: Package_for_KB3019978~31bf3856ad364e35~amd64~~6.1.1.2, ApplicableState: 80, CurrentState:0
+2016-09-28 04:30:35, Info                  CBS    Session: 30546174_10537609 initialized by client WindowsUpdateAgent.
+2016-09-28 04:30:35, Info                  CBS    Read out cached package applicability for package: Package_for_KB2563227~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: 112, CurrentState:112
+2016-09-28 04:30:35, Info                  CBS    Session: 30546174_11037638 initialized by client WindowsUpdateAgent.
+2016-09-28 04:30:36, Info                  CBS    Read out cached package applicability for package: Package_for_KB3126587~31bf3856ad364e35~amd64~~6.1.1.1, ApplicableState: 112, CurrentState:112
+2016-09-28 04:30:36, Info                  CBS    Session: 30546174_17007979 initialized by client WindowsUpdateAgent.
+2016-09-28 04:30:36, Info                  CBS    Read out cached package applicability for package: Package_for_KB2789645~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: 80, CurrentState:112
+2016-09-28 04:30:36, Info                  CBS    Session: 30546174_17668017 initialized by client WindowsUpdateAgent.
+2016-09-28 04:30:36, Info                  CBS    Read out cached package applicability for package: Package_for_KB3138901~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: 112, CurrentState:112
+2016-09-28 04:30:36, Info                  CBS    Session: 30546174_17818026 initialized by client WindowsUpdateAgent.
+2016-09-28 04:30:36, Info                  CBS    Read out cached package applicability for package: Package_for_KB2607047~31bf3856ad364e35~amd64~~6.1.1.1, ApplicableState: 0, CurrentState:0
+2016-09-28 04:30:36, Info                  CBS    Session: 30546174_18178046 initialized by client WindowsUpdateAgent.
+2016-09-28 04:30:36, Info                  CBS    Session: 30546174_18398059 initialized by client WindowsUpdateAgent.
+2016-09-28 04:30:36, Info                  CBS    Read out cached package applicability for package: Package_for_KB3011780~31bf3856ad364e35~amd64~~6.1.1.5, ApplicableState: 112, CurrentState:112
+2016-09-28 04:30:36, Info                  CBS    Session: 30546174_20238164 initialized by client WindowsUpdateAgent.
+2016-09-28 04:30:36, Info                  CBS    Read out cached package applicability for package: Package_for_KB3170455~31bf3856ad364e35~amd64~~6.1.1.2, ApplicableState: 112, CurrentState:112
+2016-09-28 04:30:36, Info                  CBS    Session: 30546174_20328169 initialized by client WindowsUpdateAgent.
+2016-09-28 04:30:36, Info                  CBS    Read out cached package applicability for package: Package_for_KB2891804~31bf3856ad364e35~amd64~~6.1.1.1, ApplicableState: 112, CurrentState:112
+2016-09-28 04:30:36, Info                  CBS    Session: 30546174_20448176 initialized by client WindowsUpdateAgent.
+2016-09-28 04:30:36, Info                  CBS    Read out cached package applicability for package: Package_for_KB3156017~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: 112, CurrentState:112
+2016-09-28 04:30:36, Info                  CBS    Session: 30546174_20458177 initialized by client WindowsUpdateAgent.
+2016-09-28 04:30:36, Info                  CBS    Read out cached package applicability for package: Package_for_KB3084135~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: 112, CurrentState:112
+2016-09-28 04:30:36, Info                  CBS    Session: 30546174_20518180 initialized by client WindowsUpdateAgent.
+2016-09-28 04:30:36, Info                  CBS    Read out cached package applicability for package: Package_for_KB2560656~31bf3856ad364e35~amd64~~6.1.1.2, ApplicableState: 112, CurrentState:112
+2016-09-28 04:30:36, Info                  CBS    Session: 30546174_20798196 initialized by client WindowsUpdateAgent.
+2016-09-28 04:30:36, Info                  CBS    Read out cached package applicability for package: Package_for_KB3184471~31bf3856ad364e35~amd64~~6.1.1.1, ApplicableState: 0, CurrentState:0
+2016-09-28 04:30:36, Info                  CBS    Session: 30546174_21498236 initialized by client WindowsUpdateAgent.
+2016-09-28 04:30:36, Info                  CBS    Read out cached package applicability for package: Package_for_KB3146963~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: 112, CurrentState:112
+2016-09-28 04:30:36, Info                  CBS    Session: 30546174_21518237 initialized by client WindowsUpdateAgent.
+2016-09-28 04:30:36, Info                  CBS    Read out cached package applicability for package: Package_for_KB2918077~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: 112, CurrentState:112
+2016-09-28 04:30:36, Info                  CBS    Session: 30546174_21788253 initialized by client WindowsUpdateAgent.
+2016-09-28 04:30:36, Info                  CBS    Read out cached package applicability for package: Package_for_KB2716513~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: 80, CurrentState:0
+2016-09-28 04:30:36, Info                  CBS    Session: 30546174_21808254 initialized by client WindowsUpdateAgent.
+2016-09-28 04:30:36, Info                  CBS    Read out cached package applicability for package: Package_for_KB2489256~31bf3856ad364e35~amd64~~6.1.1.1, ApplicableState: 80, CurrentState:0
+2016-09-28 04:30:36, Info                  CBS    Session: 30546174_21868257 initialized by client WindowsUpdateAgent.
+2016-09-28 04:30:36, Info                  CBS    Read out cached package applicability for package: Package_for_KB3138962~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: 80, CurrentState:112
+2016-09-28 04:30:36, Info                  CBS    Session: 30546174_21888258 initialized by client WindowsUpdateAgent.
+2016-09-28 04:30:36, Info                  CBS    Read out cached package applicability for package: Package_for_KB2552343~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: 112, CurrentState:112
+2016-09-28 04:30:36, Info                  CBS    Session: 30546174_21968263 initialized by client WindowsUpdateAgent.
+2016-09-28 04:30:36, Info                  CBS    Read out cached package applicability for package: Package_for_KB3059317~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: 112, CurrentState:112
+2016-09-28 04:30:36, Info                  CBS    Session: 30546174_22008265 initialized by client WindowsUpdateAgent.
+2016-09-28 04:30:36, Info                  CBS    Read out cached package applicability for package: Package_for_KB2973201~31bf3856ad364e35~amd64~~6.1.1.2, ApplicableState: 112, CurrentState:112
+2016-09-28 04:30:36, Info                  CBS    Session: 30546174_22048268 initialized by client WindowsUpdateAgent.
+2016-09-28 04:30:37, Info                  CBS    Read out cached package applicability for package: Package_for_KB3072305~31bf3856ad364e35~amd64~~6.1.1.2, ApplicableState: 112, CurrentState:112
+2016-09-28 04:30:37, Info                  CBS    Session: 30546174_22448291 initialized by client WindowsUpdateAgent.
+2016-09-28 04:30:37, Info                  CBS    Read out cached package applicability for package: Package_for_KB3078667~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: 112, CurrentState:112
+2016-09-28 04:30:37, Info                  CBS    Session: 30546174_22538296 initialized by client WindowsUpdateAgent.
+2016-09-28 04:30:37, Info                  CBS    Read out cached package applicability for package: Package_for_KB3020369~31bf3856ad364e35~amd64~~6.1.1.1, ApplicableState: 80, CurrentState:112
+2016-09-28 04:30:37, Info                  CBS    Session: 30546174_22828312 initialized by client WindowsUpdateAgent.
+2016-09-28 04:30:37, Info                  CBS    Read out cached package applicability for package: Package_for_KB2943357~31bf3856ad364e35~amd64~~6.1.1.3, ApplicableState: 112, CurrentState:112
+2016-09-28 04:30:37, Info                  CBS    Session: 30546174_23648359 initialized by client WindowsUpdateAgent.
+2016-09-28 04:30:37, Info                  CBS    Read out cached package applicability for package: Package_for_KB3168965~31bf3856ad364e35~amd64~~6.1.1.2, ApplicableState: 80, CurrentState:112
+2016-09-28 04:30:37, Info                  CBS    Session: 30546174_23668360 initialized by client WindowsUpdateAgent.
+Jun 14 15:16:01 combo sshd(pam_unix)[19939]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=218.188.2.4 
+Jun 14 15:16:02 combo sshd(pam_unix)[19937]: check pass; user unknown
+Jun 14 15:16:02 combo sshd(pam_unix)[19937]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=218.188.2.4 
+Jun 15 02:04:59 combo sshd(pam_unix)[20882]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=220-135-151-1.hinet-ip.hinet.net  user=root
+Jun 15 02:04:59 combo sshd(pam_unix)[20884]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=220-135-151-1.hinet-ip.hinet.net  user=root
+Jun 15 02:04:59 combo sshd(pam_unix)[20883]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=220-135-151-1.hinet-ip.hinet.net  user=root
+Jun 15 02:04:59 combo sshd(pam_unix)[20885]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=220-135-151-1.hinet-ip.hinet.net  user=root
+Jun 15 02:04:59 combo sshd(pam_unix)[20886]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=220-135-151-1.hinet-ip.hinet.net  user=root
+Jun 15 02:04:59 combo sshd(pam_unix)[20892]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=220-135-151-1.hinet-ip.hinet.net  user=root
+Jun 15 02:04:59 combo sshd(pam_unix)[20893]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=220-135-151-1.hinet-ip.hinet.net  user=root
+Jun 15 02:04:59 combo sshd(pam_unix)[20896]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=220-135-151-1.hinet-ip.hinet.net  user=root
+Jun 15 02:04:59 combo sshd(pam_unix)[20897]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=220-135-151-1.hinet-ip.hinet.net  user=root
+Jun 15 02:04:59 combo sshd(pam_unix)[20898]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=220-135-151-1.hinet-ip.hinet.net  user=root
+Jun 15 04:06:18 combo su(pam_unix)[21416]: session opened for user cyrus by (uid=0)
+Jun 15 04:06:19 combo su(pam_unix)[21416]: session closed for user cyrus
+Jun 15 04:06:20 combo logrotate: ALERT exited abnormally with [1]
+Jun 15 04:12:42 combo su(pam_unix)[22644]: session opened for user news by (uid=0)
+Jun 15 04:12:43 combo su(pam_unix)[22644]: session closed for user news
+Jun 15 12:12:34 combo sshd(pam_unix)[23397]: check pass; user unknown
+Jun 15 12:12:34 combo sshd(pam_unix)[23397]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=218.188.2.4 
+Jun 15 12:12:34 combo sshd(pam_unix)[23395]: check pass; user unknown
+Jun 15 12:12:34 combo sshd(pam_unix)[23395]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=218.188.2.4 
+Jun 15 12:12:34 combo sshd(pam_unix)[23404]: check pass; user unknown
+Jun 15 12:12:34 combo sshd(pam_unix)[23404]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=218.188.2.4 
+Jun 15 12:12:34 combo sshd(pam_unix)[23399]: check pass; user unknown
+Jun 15 12:12:34 combo sshd(pam_unix)[23399]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=218.188.2.4 
+Jun 15 12:12:34 combo sshd(pam_unix)[23406]: check pass; user unknown
+Jun 15 12:12:34 combo sshd(pam_unix)[23406]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=218.188.2.4 
+Jun 15 12:12:34 combo sshd(pam_unix)[23396]: check pass; user unknown
+Jun 15 12:12:34 combo sshd(pam_unix)[23394]: check pass; user unknown
+Jun 15 12:12:34 combo sshd(pam_unix)[23407]: check pass; user unknown
+Jun 15 12:12:34 combo sshd(pam_unix)[23394]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=218.188.2.4 
+Jun 15 12:12:34 combo sshd(pam_unix)[23403]: check pass; user unknown
+Jun 15 12:12:34 combo sshd(pam_unix)[23396]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=218.188.2.4 
+Jun 15 12:12:34 combo sshd(pam_unix)[23407]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=218.188.2.4 
+Jun 15 12:12:34 combo sshd(pam_unix)[23403]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=218.188.2.4 
+Jun 15 12:12:34 combo sshd(pam_unix)[23412]: check pass; user unknown
+Jun 15 12:12:34 combo sshd(pam_unix)[23412]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=218.188.2.4 
+Jun 15 12:13:19 combo sshd(pam_unix)[23414]: check pass; user unknown
+Jun 15 12:13:19 combo sshd(pam_unix)[23414]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=218.188.2.4 
+Jun 15 12:13:20 combo sshd(pam_unix)[23416]: check pass; user unknown
+Jun 15 12:13:20 combo sshd(pam_unix)[23416]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=218.188.2.4 
+Jun 15 14:53:32 combo sshd(pam_unix)[23661]: check pass; user unknown
+Jun 15 14:53:32 combo sshd(pam_unix)[23661]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=061092085098.ctinets.com 
+Jun 15 14:53:32 combo sshd(pam_unix)[23663]: check pass; user unknown
+Jun 15 14:53:32 combo sshd(pam_unix)[23663]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=061092085098.ctinets.com 
+Jun 15 14:53:32 combo sshd(pam_unix)[23664]: check pass; user unknown
+Jun 15 14:53:32 combo sshd(pam_unix)[23664]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=061092085098.ctinets.com 
+Jun 15 14:53:33 combo sshd(pam_unix)[23665]: check pass; user unknown
+Jun 15 14:53:33 combo sshd(pam_unix)[23665]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=061092085098.ctinets.com 
+Jun 15 14:53:34 combo sshd(pam_unix)[23669]: check pass; user unknown
+Jun 15 14:53:34 combo sshd(pam_unix)[23669]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=061092085098.ctinets.com 
+Jun 15 14:53:35 combo sshd(pam_unix)[23671]: check pass; user unknown
+Jun 15 14:53:35 combo sshd(pam_unix)[23671]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=061092085098.ctinets.com 
+Jun 15 14:53:35 combo sshd(pam_unix)[23673]: check pass; user unknown
+Jun 15 14:53:35 combo sshd(pam_unix)[23673]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=061092085098.ctinets.com 
+Jun 15 14:53:35 combo sshd(pam_unix)[23674]: check pass; user unknown
+Jun 15 14:53:35 combo sshd(pam_unix)[23674]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=061092085098.ctinets.com 
+Jun 15 14:53:36 combo sshd(pam_unix)[23678]: check pass; user unknown
+Jun 15 14:53:36 combo sshd(pam_unix)[23678]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=061092085098.ctinets.com 
+Jun 15 14:53:36 combo sshd(pam_unix)[23677]: check pass; user unknown
+Jun 15 14:53:36 combo sshd(pam_unix)[23677]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=061092085098.ctinets.com 
+Jun 15 20:05:31 combo sshd(pam_unix)[24138]: check pass; user unknown
+Jun 15 20:05:31 combo sshd(pam_unix)[24138]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=d211-116-254-214.rev.krline.net 
+Jun 15 20:05:31 combo sshd(pam_unix)[24137]: check pass; user unknown
+Jun 15 20:05:31 combo sshd(pam_unix)[24137]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=d211-116-254-214.rev.krline.net 
+Jun 15 20:05:31 combo sshd(pam_unix)[24141]: check pass; user unknown
+Jun 15 20:05:31 combo sshd(pam_unix)[24141]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=d211-116-254-214.rev.krline.net 
+Jun 15 20:05:31 combo sshd(pam_unix)[24140]: check pass; user unknown
+Jun 15 20:05:31 combo sshd(pam_unix)[24140]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=d211-116-254-214.rev.krline.net 
+Jun 15 20:05:31 combo sshd(pam_unix)[24139]: check pass; user unknown
+Jun 15 20:05:31 combo sshd(pam_unix)[24139]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=d211-116-254-214.rev.krline.net 
+Jun 16 04:10:22 combo su(pam_unix)[25178]: session opened for user cyrus by (uid=0)
+Jun 16 04:10:23 combo su(pam_unix)[25178]: session closed for user cyrus
+Jun 16 04:10:24 combo logrotate: ALERT exited abnormally with [1]
+Jun 16 04:16:17 combo su(pam_unix)[25548]: session opened for user news by (uid=0)
+Jun 16 04:16:18 combo su(pam_unix)[25548]: session closed for user news
+Jun 17 04:03:33 combo su(pam_unix)[27953]: session opened for user cyrus by (uid=0)
+Jun 17 04:03:34 combo su(pam_unix)[27953]: session closed for user cyrus
+Jun 17 04:03:36 combo logrotate: ALERT exited abnormally with [1]
+Jun 17 04:09:43 combo su(pam_unix)[29190]: session opened for user news by (uid=0)
+Jun 17 04:09:45 combo su(pam_unix)[29190]: session closed for user news
+Jun 17 07:07:00 combo ftpd[29504]: connection from 24.54.76.216 (24-54-76-216.bflony.adelphia.net) at Fri Jun 17 07:07:00 2005 
+Jun 17 07:07:00 combo ftpd[29508]: connection from 24.54.76.216 (24-54-76-216.bflony.adelphia.net) at Fri Jun 17 07:07:00 2005 
+Jun 17 07:07:00 combo ftpd[29507]: connection from 24.54.76.216 (24-54-76-216.bflony.adelphia.net) at Fri Jun 17 07:07:00 2005 
+Jun 17 07:07:00 combo ftpd[29505]: connection from 24.54.76.216 (24-54-76-216.bflony.adelphia.net) at Fri Jun 17 07:07:00 2005 
+Jun 17 07:07:00 combo ftpd[29506]: connection from 24.54.76.216 (24-54-76-216.bflony.adelphia.net) at Fri Jun 17 07:07:00 2005 
+Jun 17 07:07:00 combo ftpd[29509]: connection from 24.54.76.216 (24-54-76-216.bflony.adelphia.net) at Fri Jun 17 07:07:00 2005 
+Jun 17 07:07:02 combo ftpd[29510]: connection from 24.54.76.216 (24-54-76-216.bflony.adelphia.net) at Fri Jun 17 07:07:02 2005 
+Jun 17 07:07:04 combo ftpd[29511]: connection from 24.54.76.216 (24-54-76-216.bflony.adelphia.net) at Fri Jun 17 07:07:04 2005 
+Jun 17 19:43:13 combo sshd(pam_unix)[30565]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=211.46.224.253  user=guest
+Jun 17 20:29:26 combo sshd(pam_unix)[30631]: session opened for user test by (uid=509)
+Jun 17 20:34:57 combo sshd(pam_unix)[30631]: session closed for user test
+Jun 17 20:55:06 combo ftpd[30755]: connection from 82.252.162.81 (lns-vlq-45-tou-82-252-162-81.adsl.proxad.net) at Fri Jun 17 20:55:06 2005 
+Jun 17 20:55:06 combo ftpd[30754]: connection from 82.252.162.81 (lns-vlq-45-tou-82-252-162-81.adsl.proxad.net) at Fri Jun 17 20:55:06 2005 
+Jun 17 20:55:06 combo ftpd[30753]: connection from 82.252.162.81 (lns-vlq-45-tou-82-252-162-81.adsl.proxad.net) at Fri Jun 17 20:55:06 2005 
+Jun 17 20:55:06 combo ftpd[30756]: connection from 82.252.162.81 (lns-vlq-45-tou-82-252-162-81.adsl.proxad.net) at Fri Jun 17 20:55:06 2005 
+Jun 17 20:55:06 combo ftpd[30757]: connection from 82.252.162.81 (lns-vlq-45-tou-82-252-162-81.adsl.proxad.net) at Fri Jun 17 20:55:06 2005 
+Jun 17 20:55:07 combo ftpd[30758]: connection from 82.252.162.81 (lns-vlq-45-tou-82-252-162-81.adsl.proxad.net) at Fri Jun 17 20:55:07 2005 
+Jun 17 20:55:07 combo ftpd[30759]: connection from 82.252.162.81 (lns-vlq-45-tou-82-252-162-81.adsl.proxad.net) at Fri Jun 17 20:55:07 2005 
+Jun 18 01:30:59 combo sshd(pam_unix)[31201]: check pass; user unknown
+Jun 18 01:30:59 combo sshd(pam_unix)[31201]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=adsl-70-242-75-179.dsl.ksc2mo.swbell.net 
+Jun 18 01:30:59 combo sshd(pam_unix)[31199]: check pass; user unknown
+Jun 18 01:30:59 combo sshd(pam_unix)[31199]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=adsl-70-242-75-179.dsl.ksc2mo.swbell.net 
+Jun 18 01:30:59 combo sshd(pam_unix)[31198]: check pass; user unknown
+Jun 18 01:30:59 combo sshd(pam_unix)[31198]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=adsl-70-242-75-179.dsl.ksc2mo.swbell.net 
+Jun 18 01:30:59 combo sshd(pam_unix)[31202]: check pass; user unknown
+Jun 18 01:30:59 combo sshd(pam_unix)[31202]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=adsl-70-242-75-179.dsl.ksc2mo.swbell.net 
+Jun 18 01:30:59 combo sshd(pam_unix)[31205]: check pass; user unknown
+Jun 18 01:30:59 combo sshd(pam_unix)[31205]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=adsl-70-242-75-179.dsl.ksc2mo.swbell.net 
+Jun 18 01:30:59 combo sshd(pam_unix)[31200]: check pass; user unknown
+Jun 18 01:30:59 combo sshd(pam_unix)[31200]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=adsl-70-242-75-179.dsl.ksc2mo.swbell.net 
+Jun 18 01:30:59 combo sshd(pam_unix)[31206]: check pass; user unknown
+Jun 18 01:30:59 combo sshd(pam_unix)[31206]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=adsl-70-242-75-179.dsl.ksc2mo.swbell.net 
+Jun 18 01:30:59 combo sshd(pam_unix)[31204]: check pass; user unknown
+Jun 18 01:30:59 combo sshd(pam_unix)[31204]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=adsl-70-242-75-179.dsl.ksc2mo.swbell.net 
+Jun 18 01:30:59 combo sshd(pam_unix)[31203]: check pass; user unknown
+Jun 18 01:30:59 combo sshd(pam_unix)[31203]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=adsl-70-242-75-179.dsl.ksc2mo.swbell.net 
+Jun 18 01:30:59 combo sshd(pam_unix)[31207]: check pass; user unknown
+Jun 18 01:30:59 combo sshd(pam_unix)[31207]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=adsl-70-242-75-179.dsl.ksc2mo.swbell.net 
+Jun 18 02:08:10 combo ftpd[31272]: connection from 82.252.162.81 (lns-vlq-45-tou-82-252-162-81.adsl.proxad.net) at Sat Jun 18 02:08:10 2005 
+Jun 18 02:08:10 combo ftpd[31273]: connection from 82.252.162.81 (lns-vlq-45-tou-82-252-162-81.adsl.proxad.net) at Sat Jun 18 02:08:10 2005 
+Jun 18 02:08:10 combo ftpd[31274]: connection from 82.252.162.81 (lns-vlq-45-tou-82-252-162-81.adsl.proxad.net) at Sat Jun 18 02:08:10 2005 
+Jun 18 02:08:10 combo ftpd[31275]: connection from 82.252.162.81 (lns-vlq-45-tou-82-252-162-81.adsl.proxad.net) at Sat Jun 18 02:08:10 2005 
+Jun 18 02:08:10 combo ftpd[31276]: connection from 82.252.162.81 (lns-vlq-45-tou-82-252-162-81.adsl.proxad.net) at Sat Jun 18 02:08:10 2005 
+Jun 18 02:08:10 combo ftpd[31277]: connection from 82.252.162.81 (lns-vlq-45-tou-82-252-162-81.adsl.proxad.net) at Sat Jun 18 02:08:10 2005 
+Jun 18 02:08:10 combo ftpd[31278]: connection from 82.252.162.81 (lns-vlq-45-tou-82-252-162-81.adsl.proxad.net) at Sat Jun 18 02:08:10 2005 
+Jun 18 02:08:11 combo ftpd[31279]: connection from 82.252.162.81 (lns-vlq-45-tou-82-252-162-81.adsl.proxad.net) at Sat Jun 18 02:08:11 2005 
+Jun 18 02:08:11 combo ftpd[31280]: connection from 82.252.162.81 (lns-vlq-45-tou-82-252-162-81.adsl.proxad.net) at Sat Jun 18 02:08:11 2005 
+Jun 18 02:08:11 combo ftpd[31281]: connection from 82.252.162.81 (lns-vlq-45-tou-82-252-162-81.adsl.proxad.net) at Sat Jun 18 02:08:11 2005 
+Jun 18 02:08:11 combo ftpd[31282]: connection from 82.252.162.81 (lns-vlq-45-tou-82-252-162-81.adsl.proxad.net) at Sat Jun 18 02:08:11 2005 
+Jun 18 02:08:11 combo ftpd[31283]: connection from 82.252.162.81 (lns-vlq-45-tou-82-252-162-81.adsl.proxad.net) at Sat Jun 18 02:08:11 2005 
+Jun 18 02:08:12 combo ftpd[31284]: connection from 82.252.162.81 (lns-vlq-45-tou-82-252-162-81.adsl.proxad.net) at Sat Jun 18 02:08:12 2005 
+Jun 18 02:08:12 combo ftpd[31285]: connection from 82.252.162.81 (lns-vlq-45-tou-82-252-162-81.adsl.proxad.net) at Sat Jun 18 02:08:12 2005 
+Jun 18 02:08:12 combo ftpd[31286]: connection from 82.252.162.81 (lns-vlq-45-tou-82-252-162-81.adsl.proxad.net) at Sat Jun 18 02:08:12 2005 
+Jun 18 02:23:10 combo ftpd[31277]: User unknown timed out after 900 seconds at Sat Jun 18 02:23:10 2005 
+Jun 18 04:07:05 combo su(pam_unix)[31791]: session opened for user cyrus by (uid=0)
+Jun 18 04:07:06 combo su(pam_unix)[31791]: session closed for user cyrus
+Jun 18 04:07:06 combo logrotate: ALERT exited abnormally with [1]
+Jun 18 04:12:42 combo su(pam_unix)[32164]: session opened for user news by (uid=0)
+Jun 18 04:12:43 combo su(pam_unix)[32164]: session closed for user news
+Jun 19 04:08:55 combo su(pam_unix)[2192]: session opened for user cyrus by (uid=0)
+Jun 19 04:08:55 combo su(pam_unix)[2192]: session closed for user cyrus
+Jun 19 04:08:57 combo cups: cupsd shutdown succeeded
+Jun 19 04:09:02 combo cups: cupsd startup succeeded
+Jun 19 04:09:11 combo syslogd 1.4.1: restart.
+Jun 19 04:09:11 combo logrotate: ALERT exited abnormally with [1]
+Jun 19 04:15:18 combo su(pam_unix)[3676]: session opened for user news by (uid=0)
+Jun 19 04:15:18 combo su(pam_unix)[3676]: session closed for user news
+Jun 20 03:40:59 combo ftpd[8829]: connection from 222.33.90.199 () at Mon Jun 20 03:40:59 2005 
+Jun 20 03:40:59 combo ftpd[8824]: connection from 222.33.90.199 () at Mon Jun 20 03:40:59 2005 
+Jun 20 03:40:59 combo ftpd[8828]: connection from 222.33.90.199 () at Mon Jun 20 03:40:59 2005 
+Jun 20 03:40:59 combo ftpd[8822]: connection from 222.33.90.199 () at Mon Jun 20 03:40:59 2005 
+Jun 20 03:40:59 combo ftpd[8833]: connection from 222.33.90.199 () at Mon Jun 20 03:40:59 2005 
+Jun 20 03:40:59 combo ftpd[8827]: connection from 222.33.90.199 () at Mon Jun 20 03:40:59 2005 
+Jun 20 03:40:59 combo ftpd[8823]: connection from 222.33.90.199 () at Mon Jun 20 03:40:59 2005 
+Jun 20 03:40:59 combo ftpd[8825]: connection from 222.33.90.199 () at Mon Jun 20 03:40:59 2005 
+Jun 20 03:40:59 combo ftpd[8826]: connection from 222.33.90.199 () at Mon Jun 20 03:40:59 2005 
+Jun 20 03:40:59 combo ftpd[8832]: connection from 222.33.90.199 () at Mon Jun 20 03:40:59 2005 
+Jun 20 03:40:59 combo ftpd[8830]: connection from 222.33.90.199 () at Mon Jun 20 03:40:59 2005 
+Jun 20 03:40:59 combo ftpd[8831]: connection from 222.33.90.199 () at Mon Jun 20 03:40:59 2005 
+Jun 20 04:02:54 combo su(pam_unix)[9187]: session opened for user cyrus by (uid=0)
+Jun 20 04:02:54 combo su(pam_unix)[9187]: session closed for user cyrus
+Jun 20 04:02:55 combo logrotate: ALERT exited abnormally with [1]
+Jun 20 04:08:37 combo su(pam_unix)[9558]: session opened for user news by (uid=0)
+Jun 20 04:08:38 combo su(pam_unix)[9558]: session closed for user news
+Jun 20 04:44:39 combo snmpd[2318]: Received SNMP packet(s) from 67.170.148.126 
+Jun 20 09:20:05 combo sshd(pam_unix)[10035]: check pass; user unknown
+Jun 20 09:20:05 combo sshd(pam_unix)[10035]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=65.166.159.14 
+Jun 20 09:20:05 combo sshd(pam_unix)[10037]: check pass; user unknown
+Jun 20 09:20:05 combo sshd(pam_unix)[10037]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=65.166.159.14 
+Jun 20 09:20:05 combo sshd(pam_unix)[10039]: check pass; user unknown
+Jun 20 09:20:05 combo sshd(pam_unix)[10039]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=65.166.159.14 
+Jun 20 09:20:06 combo sshd(pam_unix)[10041]: check pass; user unknown
+Jun 20 09:20:06 combo sshd(pam_unix)[10041]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=65.166.159.14 
+Jun 20 09:20:07 combo sshd(pam_unix)[10043]: check pass; user unknown
+Jun 20 09:20:07 combo sshd(pam_unix)[10043]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=65.166.159.14 
+Jun 20 09:20:07 combo sshd(pam_unix)[10045]: check pass; user unknown
+Jun 20 09:20:07 combo sshd(pam_unix)[10045]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=65.166.159.14 
+Jun 20 09:20:07 combo sshd(pam_unix)[10047]: check pass; user unknown
+Jun 20 09:20:07 combo sshd(pam_unix)[10047]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=65.166.159.14 
+Jun 20 09:20:07 combo sshd(pam_unix)[10049]: check pass; user unknown
+Jun 20 09:20:07 combo sshd(pam_unix)[10049]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=65.166.159.14 
+Jun 20 09:20:08 combo sshd(pam_unix)[10051]: check pass; user unknown
+Jun 20 09:20:08 combo sshd(pam_unix)[10051]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=65.166.159.14 
+Jun 20 09:20:08 combo sshd(pam_unix)[10053]: check pass; user unknown
+Jun 20 09:20:08 combo sshd(pam_unix)[10053]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=65.166.159.14 
+Jun 21 04:06:57 combo su(pam_unix)[12098]: session opened for user cyrus by (uid=0)
+Jun 21 04:06:58 combo su(pam_unix)[12098]: session closed for user cyrus
+Jun 21 04:06:59 combo logrotate: ALERT exited abnormally with [1]
+Jun 21 04:13:03 combo su(pam_unix)[13327]: session opened for user news by (uid=0)
+Jun 21 04:13:04 combo su(pam_unix)[13327]: session closed for user news
+Jun 21 08:56:36 combo sshd(pam_unix)[14281]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=217.60.212.66  user=guest
+Jun 21 08:56:36 combo sshd(pam_unix)[14279]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=217.60.212.66  user=guest
+Jun 21 08:56:36 combo sshd(pam_unix)[14282]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=217.60.212.66  user=guest
+Jun 21 08:56:36 combo sshd(pam_unix)[14277]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=217.60.212.66  user=guest
+Jun 21 08:56:36 combo sshd(pam_unix)[14278]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=217.60.212.66  user=guest
+Jun 21 08:56:36 combo sshd(pam_unix)[14280]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=217.60.212.66  user=guest
+Jun 22 03:17:26 combo sshd(pam_unix)[16207]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=n219076184117.netvigator.com  user=root
+Jun 22 03:17:26 combo sshd(pam_unix)[16206]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=n219076184117.netvigator.com  user=root
+Jun 22 03:17:35 combo sshd(pam_unix)[16210]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=n219076184117.netvigator.com  user=root
+Jun 22 03:17:36 combo sshd(pam_unix)[16212]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=n219076184117.netvigator.com  user=root
+Jun 22 03:17:36 combo sshd(pam_unix)[16213]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=n219076184117.netvigator.com  user=root
+Jun 22 03:17:45 combo sshd(pam_unix)[16216]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=n219076184117.netvigator.com  user=root
+Jun 22 03:17:46 combo sshd(pam_unix)[16218]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=n219076184117.netvigator.com  user=root
+Jun 22 03:17:46 combo sshd(pam_unix)[16219]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=n219076184117.netvigator.com  user=root
+Jun 22 03:17:52 combo sshd(pam_unix)[16222]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=n219076184117.netvigator.com  user=root
+Jun 22 03:17:55 combo sshd(pam_unix)[16224]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=n219076184117.netvigator.com  user=root
+Jun 22 03:17:56 combo sshd(pam_unix)[16226]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=n219076184117.netvigator.com  user=root
+Jun 22 03:17:56 combo sshd(pam_unix)[16227]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=n219076184117.netvigator.com  user=root
+Jun 22 03:18:02 combo sshd(pam_unix)[16230]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=n219076184117.netvigator.com  user=root
+Jun 22 03:18:05 combo sshd(pam_unix)[16232]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=n219076184117.netvigator.com  user=root
+Jun 22 03:18:06 combo sshd(pam_unix)[16234]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=n219076184117.netvigator.com  user=root
+Jun 22 03:18:06 combo sshd(pam_unix)[16235]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=n219076184117.netvigator.com  user=root
+Jun 22 03:18:10 combo sshd(pam_unix)[16238]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=n219076184117.netvigator.com  user=root
+Jun 22 03:18:12 combo sshd(pam_unix)[16240]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=n219076184117.netvigator.com  user=root
+Jun 22 03:18:15 combo sshd(pam_unix)[16242]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=n219076184117.netvigator.com  user=root
+Jun 22 03:18:16 combo sshd(pam_unix)[16244]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=n219076184117.netvigator.com  user=root
+Jun 22 03:18:16 combo sshd(pam_unix)[16245]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=n219076184117.netvigator.com  user=root
+Jun 22 03:18:20 combo sshd(pam_unix)[16248]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=n219076184117.netvigator.com  user=root
+Jun 22 03:18:22 combo sshd(pam_unix)[16250]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=n219076184117.netvigator.com  user=root
+Jun 22 04:05:58 combo su(pam_unix)[16663]: session opened for user cyrus by (uid=0)
+Jun 22 04:05:59 combo su(pam_unix)[16663]: session closed for user cyrus
+Jun 22 04:06:00 combo logrotate: ALERT exited abnormally with [1]
+Jun 22 04:11:42 combo su(pam_unix)[17037]: session opened for user news by (uid=0)
+Jun 22 04:11:42 combo su(pam_unix)[17037]: session closed for user news
+Jun 22 04:30:55 combo sshd(pam_unix)[17129]: check pass; user unknown
+Jun 22 04:30:55 combo sshd(pam_unix)[17129]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=ip-216-69-169-168.ip.secureserver.net 
+Jun 22 04:30:55 combo sshd(pam_unix)[17125]: check pass; user unknown
+Jun 22 04:30:55 combo sshd(pam_unix)[17125]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=ip-216-69-169-168.ip.secureserver.net 
+Jun 22 04:30:55 combo sshd(pam_unix)[17124]: check pass; user unknown
+Jun 22 04:30:55 combo sshd(pam_unix)[17124]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=ip-216-69-169-168.ip.secureserver.net 
+Jun 22 04:30:55 combo sshd(pam_unix)[17123]: check pass; user unknown
+Jun 22 04:30:55 combo sshd(pam_unix)[17123]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=ip-216-69-169-168.ip.secureserver.net 
+Jun 22 04:30:55 combo sshd(pam_unix)[17132]: check pass; user unknown
+Jun 22 04:30:55 combo sshd(pam_unix)[17132]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=ip-216-69-169-168.ip.secureserver.net 
+Jun 22 04:30:55 combo sshd(pam_unix)[17131]: check pass; user unknown
+Jun 22 04:30:55 combo sshd(pam_unix)[17131]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=ip-216-69-169-168.ip.secureserver.net 
+Jun 22 04:30:55 combo sshd(pam_unix)[17135]: check pass; user unknown
+Jun 22 04:30:55 combo sshd(pam_unix)[17135]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=ip-216-69-169-168.ip.secureserver.net 
+Jun 22 04:30:55 combo sshd(pam_unix)[17137]: check pass; user unknown
+Jun 22 04:30:55 combo sshd(pam_unix)[17137]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=ip-216-69-169-168.ip.secureserver.net 
+Jun 22 04:30:56 combo sshd(pam_unix)[17139]: check pass; user unknown
+Jun 22 04:30:56 combo sshd(pam_unix)[17139]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=ip-216-69-169-168.ip.secureserver.net 
+Jun 22 04:30:56 combo sshd(pam_unix)[17140]: check pass; user unknown
+Jun 22 04:30:56 combo sshd(pam_unix)[17140]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=ip-216-69-169-168.ip.secureserver.net 
+Dec 10 06:55:46 LabSZ sshd[24200]: reverse mapping checking getaddrinfo for ns.marryaldkfaczcz.com [173.234.31.186] failed - POSSIBLE BREAK-IN ATTEMPT!
+Dec 10 06:55:46 LabSZ sshd[24200]: Invalid user webmaster from 173.234.31.186
+Dec 10 06:55:46 LabSZ sshd[24200]: input_userauth_request: invalid user webmaster [preauth]
+Dec 10 06:55:46 LabSZ sshd[24200]: pam_unix(sshd:auth): check pass; user unknown
+Dec 10 06:55:46 LabSZ sshd[24200]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=173.234.31.186 
+Dec 10 06:55:48 LabSZ sshd[24200]: Failed password for invalid user webmaster from 173.234.31.186 port 38926 ssh2
+Dec 10 06:55:48 LabSZ sshd[24200]: Connection closed by 173.234.31.186 [preauth]
+Dec 10 07:02:47 LabSZ sshd[24203]: Connection closed by 212.47.254.145 [preauth]
+Dec 10 07:07:38 LabSZ sshd[24206]: Invalid user test9 from 52.80.34.196
+Dec 10 07:07:38 LabSZ sshd[24206]: input_userauth_request: invalid user test9 [preauth]
+Dec 10 07:07:38 LabSZ sshd[24206]: pam_unix(sshd:auth): check pass; user unknown
+Dec 10 07:07:38 LabSZ sshd[24206]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=ec2-52-80-34-196.cn-north-1.compute.amazonaws.com.cn 
+Dec 10 07:07:45 LabSZ sshd[24206]: Failed password for invalid user test9 from 52.80.34.196 port 36060 ssh2
+Dec 10 07:07:45 LabSZ sshd[24206]: Received disconnect from 52.80.34.196: 11: Bye Bye [preauth]
+Dec 10 07:08:28 LabSZ sshd[24208]: reverse mapping checking getaddrinfo for ns.marryaldkfaczcz.com [173.234.31.186] failed - POSSIBLE BREAK-IN ATTEMPT!
+Dec 10 07:08:28 LabSZ sshd[24208]: Invalid user webmaster from 173.234.31.186
+Dec 10 07:08:28 LabSZ sshd[24208]: input_userauth_request: invalid user webmaster [preauth]
+Dec 10 07:08:28 LabSZ sshd[24208]: pam_unix(sshd:auth): check pass; user unknown
+Dec 10 07:08:28 LabSZ sshd[24208]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=173.234.31.186 
+Dec 10 07:08:30 LabSZ sshd[24208]: Failed password for invalid user webmaster from 173.234.31.186 port 39257 ssh2
+Dec 10 07:08:30 LabSZ sshd[24208]: Connection closed by 173.234.31.186 [preauth]
+Dec 10 07:11:42 LabSZ sshd[24224]: Invalid user chen from 202.100.179.208
+Dec 10 07:11:42 LabSZ sshd[24224]: input_userauth_request: invalid user chen [preauth]
+Dec 10 07:11:42 LabSZ sshd[24224]: pam_unix(sshd:auth): check pass; user unknown
+Dec 10 07:11:42 LabSZ sshd[24224]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=202.100.179.208 
+Dec 10 07:11:44 LabSZ sshd[24224]: Failed password for invalid user chen from 202.100.179.208 port 32484 ssh2
+Dec 10 07:11:44 LabSZ sshd[24224]: Received disconnect from 202.100.179.208: 11: Bye Bye [preauth]
+Dec 10 07:13:31 LabSZ sshd[24227]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=5.36.59.76.dynamic-dsl-ip.omantel.net.om  user=root
+Dec 10 07:13:43 LabSZ sshd[24227]: Failed password for root from 5.36.59.76 port 42393 ssh2
+Dec 10 07:13:56 LabSZ sshd[24227]: message repeated 5 times: [ Failed password for root from 5.36.59.76 port 42393 ssh2]
+Dec 10 07:13:56 LabSZ sshd[24227]: Disconnecting: Too many authentication failures for root [preauth]
+Dec 10 07:13:56 LabSZ sshd[24227]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=5.36.59.76.dynamic-dsl-ip.omantel.net.om  user=root
+Dec 10 07:13:56 LabSZ sshd[24227]: PAM service(sshd) ignoring max retries; 6 > 3
+Dec 10 07:27:50 LabSZ sshd[24235]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=112.95.230.3  user=root
+Dec 10 07:27:52 LabSZ sshd[24235]: Failed password for root from 112.95.230.3 port 45378 ssh2
+Dec 10 07:27:52 LabSZ sshd[24235]: Received disconnect from 112.95.230.3: 11: Bye Bye [preauth]
+Dec 10 07:27:53 LabSZ sshd[24237]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=112.95.230.3  user=root
+Dec 10 07:27:55 LabSZ sshd[24237]: Failed password for root from 112.95.230.3 port 47068 ssh2
+Dec 10 07:27:55 LabSZ sshd[24237]: Received disconnect from 112.95.230.3: 11: Bye Bye [preauth]
+Dec 10 07:27:55 LabSZ sshd[24239]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=112.95.230.3  user=root
+Dec 10 07:27:58 LabSZ sshd[24239]: Failed password for root from 112.95.230.3 port 49188 ssh2
+Dec 10 07:27:58 LabSZ sshd[24239]: Received disconnect from 112.95.230.3: 11: Bye Bye [preauth]
+Dec 10 07:27:58 LabSZ sshd[24241]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=112.95.230.3  user=root
+Dec 10 07:28:00 LabSZ sshd[24241]: Failed password for root from 112.95.230.3 port 50999 ssh2
+Dec 10 07:28:00 LabSZ sshd[24241]: Received disconnect from 112.95.230.3: 11: Bye Bye [preauth]
+Dec 10 07:28:01 LabSZ sshd[24243]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=112.95.230.3  user=root
+Dec 10 07:28:03 LabSZ sshd[24243]: Failed password for root from 112.95.230.3 port 52660 ssh2
+Dec 10 07:28:03 LabSZ sshd[24243]: Received disconnect from 112.95.230.3: 11: Bye Bye [preauth]
+Dec 10 07:28:03 LabSZ sshd[24245]: Invalid user pgadmin from 112.95.230.3
+Dec 10 07:28:03 LabSZ sshd[24245]: input_userauth_request: invalid user pgadmin [preauth]
+Dec 10 07:28:03 LabSZ sshd[24245]: pam_unix(sshd:auth): check pass; user unknown
+Dec 10 07:28:03 LabSZ sshd[24245]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=112.95.230.3 
+Dec 10 07:28:05 LabSZ sshd[24245]: Failed password for invalid user pgadmin from 112.95.230.3 port 54087 ssh2
+Dec 10 07:28:05 LabSZ sshd[24245]: Received disconnect from 112.95.230.3: 11: Bye Bye [preauth]
+Dec 10 07:28:06 LabSZ sshd[24247]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=112.95.230.3  user=root
+Dec 10 07:28:08 LabSZ sshd[24247]: Failed password for root from 112.95.230.3 port 55618 ssh2
+Dec 10 07:28:08 LabSZ sshd[24247]: Received disconnect from 112.95.230.3: 11: Bye Bye [preauth]
+Dec 10 07:28:08 LabSZ sshd[24249]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=112.95.230.3  user=root
+Dec 10 07:28:10 LabSZ sshd[24249]: Failed password for root from 112.95.230.3 port 57138 ssh2
+Dec 10 07:28:10 LabSZ sshd[24249]: Received disconnect from 112.95.230.3: 11: Bye Bye [preauth]
+Dec 10 07:28:10 LabSZ sshd[24251]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=112.95.230.3  user=root
+Dec 10 07:28:12 LabSZ sshd[24251]: Failed password for root from 112.95.230.3 port 58304 ssh2
+Dec 10 07:28:12 LabSZ sshd[24251]: Received disconnect from 112.95.230.3: 11: Bye Bye [preauth]
+Dec 10 07:28:12 LabSZ sshd[24253]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=112.95.230.3  user=root
+Dec 10 07:28:14 LabSZ sshd[24253]: Failed password for root from 112.95.230.3 port 59849 ssh2
+Dec 10 07:28:14 LabSZ sshd[24253]: Received disconnect from 112.95.230.3: 11: Bye Bye [preauth]
+Dec 10 07:28:14 LabSZ sshd[24255]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=112.95.230.3  user=root
+Dec 10 07:28:16 LabSZ sshd[24255]: Failed password for root from 112.95.230.3 port 32977 ssh2
+Dec 10 07:28:16 LabSZ sshd[24255]: Received disconnect from 112.95.230.3: 11: Bye Bye [preauth]
+Dec 10 07:28:16 LabSZ sshd[24257]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=112.95.230.3  user=root
+Dec 10 07:28:18 LabSZ sshd[24257]: Failed password for root from 112.95.230.3 port 35113 ssh2
+Dec 10 07:28:18 LabSZ sshd[24257]: Received disconnect from 112.95.230.3: 11: Bye Bye [preauth]
+Dec 10 07:28:19 LabSZ sshd[24259]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=112.95.230.3  user=root
+Dec 10 07:28:21 LabSZ sshd[24259]: Failed password for root from 112.95.230.3 port 37035 ssh2
+Dec 10 07:28:21 LabSZ sshd[24259]: Received disconnect from 112.95.230.3: 11: Bye Bye [preauth]
+Dec 10 07:28:21 LabSZ sshd[24261]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=112.95.230.3  user=root
+Dec 10 07:28:23 LabSZ sshd[24261]: Failed password for root from 112.95.230.3 port 39041 ssh2
+Dec 10 07:28:23 LabSZ sshd[24261]: Received disconnect from 112.95.230.3: 11: Bye Bye [preauth]
+Dec 10 07:28:23 LabSZ sshd[24263]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=112.95.230.3  user=root
+Dec 10 07:28:25 LabSZ sshd[24263]: Failed password for root from 112.95.230.3 port 40388 ssh2
+Dec 10 07:28:25 LabSZ sshd[24263]: Received disconnect from 112.95.230.3: 11: Bye Bye [preauth]
+Dec 10 07:28:25 LabSZ sshd[24265]: Invalid user utsims from 112.95.230.3
+Dec 10 07:28:25 LabSZ sshd[24265]: input_userauth_request: invalid user utsims [preauth]
+Dec 10 07:28:25 LabSZ sshd[24265]: pam_unix(sshd:auth): check pass; user unknown
+Dec 10 07:28:25 LabSZ sshd[24265]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=112.95.230.3 
+Dec 10 07:28:28 LabSZ sshd[24265]: Failed password for invalid user utsims from 112.95.230.3 port 41506 ssh2
+Dec 10 07:28:28 LabSZ sshd[24265]: Received disconnect from 112.95.230.3: 11: Bye Bye [preauth]
+Dec 10 07:28:28 LabSZ sshd[24267]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=112.95.230.3  user=root
+Dec 10 07:28:30 LabSZ sshd[24267]: Failed password for root from 112.95.230.3 port 42881 ssh2
+Dec 10 07:28:30 LabSZ sshd[24267]: Received disconnect from 112.95.230.3: 11: Bye Bye [preauth]
+Dec 10 07:28:31 LabSZ sshd[24269]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=112.95.230.3  user=root
+Dec 10 07:28:33 LabSZ sshd[24269]: Failed password for root from 112.95.230.3 port 43981 ssh2
+Dec 10 07:28:33 LabSZ sshd[24269]: Received disconnect from 112.95.230.3: 11: Bye Bye [preauth]
+Dec 10 07:28:33 LabSZ sshd[24271]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=112.95.230.3  user=root
+Dec 10 07:28:35 LabSZ sshd[24271]: Failed password for root from 112.95.230.3 port 44900 ssh2
+Dec 10 07:28:35 LabSZ sshd[24271]: Received disconnect from 112.95.230.3: 11: Bye Bye [preauth]
+Dec 10 07:28:35 LabSZ sshd[24273]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=112.95.230.3  user=root
+Dec 10 07:28:37 LabSZ sshd[24273]: Failed password for root from 112.95.230.3 port 45699 ssh2
+Dec 10 07:28:37 LabSZ sshd[24273]: Received disconnect from 112.95.230.3: 11: Bye Bye [preauth]
+Dec 10 07:28:37 LabSZ sshd[24275]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=112.95.230.3  user=root
+Dec 10 07:28:39 LabSZ sshd[24275]: Failed password for root from 112.95.230.3 port 46577 ssh2
+Dec 10 07:28:39 LabSZ sshd[24275]: Received disconnect from 112.95.230.3: 11: Bye Bye [preauth]
+Dec 10 07:28:40 LabSZ sshd[24277]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=112.95.230.3  user=root
+Dec 10 07:28:42 LabSZ sshd[24277]: Failed password for root from 112.95.230.3 port 47836 ssh2
+Dec 10 07:28:42 LabSZ sshd[24277]: Received disconnect from 112.95.230.3: 11: Bye Bye [preauth]
+Dec 10 07:28:42 LabSZ sshd[24279]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=112.95.230.3  user=root
+Dec 10 07:28:44 LabSZ sshd[24279]: Failed password for root from 112.95.230.3 port 49133 ssh2
+Dec 10 07:28:44 LabSZ sshd[24279]: Received disconnect from 112.95.230.3: 11: Bye Bye [preauth]
+Dec 10 07:28:45 LabSZ sshd[24281]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=112.95.230.3  user=root
+Dec 10 07:28:46 LabSZ sshd[24281]: Failed password for root from 112.95.230.3 port 50655 ssh2
+Dec 10 07:28:46 LabSZ sshd[24281]: Received disconnect from 112.95.230.3: 11: Bye Bye [preauth]
+Dec 10 07:28:47 LabSZ sshd[24283]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=112.95.230.3  user=root
+Dec 10 07:28:49 LabSZ sshd[24283]: Failed password for root from 112.95.230.3 port 51982 ssh2
+Dec 10 07:28:49 LabSZ sshd[24283]: Received disconnect from 112.95.230.3: 11: Bye Bye [preauth]
+Dec 10 07:28:49 LabSZ sshd[24285]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=112.95.230.3  user=root
+Dec 10 07:28:51 LabSZ sshd[24285]: Failed password for root from 112.95.230.3 port 53584 ssh2
+Dec 10 07:28:51 LabSZ sshd[24285]: Received disconnect from 112.95.230.3: 11: Bye Bye [preauth]
+Dec 10 07:32:24 LabSZ sshd[24287]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=123.235.32.19  user=root
+Dec 10 07:32:27 LabSZ sshd[24287]: Failed password for root from 123.235.32.19 port 40652 ssh2
+Dec 10 07:32:27 LabSZ sshd[24287]: Received disconnect from 123.235.32.19: 11: Bye Bye [preauth]
+Dec 10 07:32:27 LabSZ sshd[24289]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=123.235.32.19  user=root
+Dec 10 07:32:29 LabSZ sshd[24289]: Failed password for root from 123.235.32.19 port 49720 ssh2
+Dec 10 07:32:29 LabSZ sshd[24289]: Received disconnect from 123.235.32.19: 11: Bye Bye [preauth]
+Dec 10 07:33:58 LabSZ sshd[24291]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=123.235.32.19  user=root
+Dec 10 07:34:00 LabSZ sshd[24291]: Failed password for root from 123.235.32.19 port 45568 ssh2
+Dec 10 07:34:00 LabSZ sshd[24291]: Received disconnect from 123.235.32.19: 11: Bye Bye [preauth]
+Dec 10 07:34:02 LabSZ sshd[24293]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=123.235.32.19  user=root
+Dec 10 07:34:04 LabSZ sshd[24293]: Failed password for root from 123.235.32.19 port 48588 ssh2
+Dec 10 07:34:06 LabSZ sshd[24293]: Received disconnect from 123.235.32.19: 11: Bye Bye [preauth]
+Dec 10 07:34:07 LabSZ sshd[24295]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=123.235.32.19  user=root
+Dec 10 07:34:10 LabSZ sshd[24295]: Failed password for root from 123.235.32.19 port 50950 ssh2
+Dec 10 07:34:10 LabSZ sshd[24295]: Received disconnect from 123.235.32.19: 11: Bye Bye [preauth]
+Dec 10 07:34:13 LabSZ sshd[24297]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=123.235.32.19  user=root
+Dec 10 07:34:15 LabSZ sshd[24297]: Failed password for root from 123.235.32.19 port 54024 ssh2
+Dec 10 07:34:15 LabSZ sshd[24297]: Received disconnect from 123.235.32.19: 11: Bye Bye [preauth]
+Dec 10 07:34:21 LabSZ sshd[24299]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=123.235.32.19  user=root
+Dec 10 07:34:23 LabSZ sshd[24299]: Failed password for root from 123.235.32.19 port 57100 ssh2
+Dec 10 07:34:24 LabSZ sshd[24299]: Received disconnect from 123.235.32.19: 11: Bye Bye [preauth]
+Dec 10 07:34:33 LabSZ sshd[24301]: Did not receive identification string from 123.235.32.19
+Dec 10 07:35:15 LabSZ sshd[24303]: Did not receive identification string from 177.79.82.136
+Dec 10 07:42:49 LabSZ sshd[24318]: Invalid user inspur from 183.136.162.51
+Dec 10 07:42:49 LabSZ sshd[24318]: input_userauth_request: invalid user inspur [preauth]
+Dec 10 07:42:49 LabSZ sshd[24318]: pam_unix(sshd:auth): check pass; user unknown
+Dec 10 07:42:49 LabSZ sshd[24318]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.136.162.51 
+Dec 10 07:42:51 LabSZ sshd[24318]: Failed password for invalid user inspur from 183.136.162.51 port 55204 ssh2
+Dec 10 07:42:51 LabSZ sshd[24318]: Received disconnect from 183.136.162.51: 11: Bye Bye [preauth]
+Dec 10 07:48:00 LabSZ sshd[24321]: reverse mapping checking getaddrinfo for 191-210-223-172.user.vivozap.com.br [191.210.223.172] failed - POSSIBLE BREAK-IN ATTEMPT!
+Dec 10 07:48:00 LabSZ sshd[24321]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=191.210.223.172  user=root
+Dec 10 07:48:03 LabSZ sshd[24321]: Failed password for root from 191.210.223.172 port 31473 ssh2
+Dec 10 07:48:03 LabSZ sshd[24321]: Connection closed by 191.210.223.172 [preauth]
+Dec 10 07:51:09 LabSZ sshd[24323]: Did not receive identification string from 195.154.37.122
+Dec 10 07:51:12 LabSZ sshd[24324]: reverse mapping checking getaddrinfo for 195-154-37-122.rev.poneytelecom.eu [195.154.37.122] failed - POSSIBLE BREAK-IN ATTEMPT!
+Dec 10 07:51:12 LabSZ sshd[24324]: Invalid user support from 195.154.37.122
+Dec 10 07:51:12 LabSZ sshd[24324]: input_userauth_request: invalid user support [preauth]
+Dec 10 07:51:12 LabSZ sshd[24324]: pam_unix(sshd:auth): check pass; user unknown
+Dec 10 07:51:12 LabSZ sshd[24324]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=195.154.37.122 
+Dec 10 07:51:15 LabSZ sshd[24324]: Failed password for invalid user support from 195.154.37.122 port 56539 ssh2

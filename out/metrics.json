@@ -1,0 +1,44 @@
+{
+  "events_total": 198,
+  "normalized": 160,
+  "quarantined": 38,
+  "success_rate": 0.8081,
+  "seconds": 0.09,
+  "eps": 2224,
+  "per_type_ok": {
+    "zeek_dns": 20,
+    "zeek_conn": 20,
+    "web_access": 20,
+    "syslog": 20,
+    "snort_alert": 20,
+    "zeek_http": 20,
+    "cisco_asa": 20,
+    "proxy_access": 20
+  },
+  "quarantine": {
+    "total": 38,
+    "by_reason": {
+      "no_plugin": 25,
+      "low_confidence": 13
+    },
+    "by_type": {
+      "miscellaneous": 25,
+      "unknown": 13
+    }
+  },
+  "inputs": [
+    "/app/input.log"
+  ],
+  "threshold": 0.6,
+  "plugins": [
+    "cisco_asa",
+    "proxy_access",
+    "snort_alert",
+    "syslog",
+    "web_access",
+    "zeek_conn",
+    "zeek_dns",
+    "zeek_http"
+  ],
+  "plugin_errors": {}
+}

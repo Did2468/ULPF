@@ -1,0 +1,6 @@
+05/14-12:02:39.796669 [**] [1:366:1] PROTOCOL-ICMP PING BSDtype [**] [Classification: Generic ICMP event] [Priority: 3] {ICMP} 37.75.195.175 -> 10.44.30.10
+05/14-12:33:04.677648 [**] [1:2003068:6] ET SCAN ICMP Unusual PING detected [**] [Classification: Attempted Information Leak] [Priority: 2] {ICMP} 45.33.74.51 -> 10.44.30.10
+05/14-12:54:38.712337 [**] [1:2002677:14] ET SCAN Nikto Web App Scan in Progress [**] [Classification: web-application-attack] [Priority: 2] {TCP} 185.199.110.42:65020 -> 10.44.30.10:80
+05/14-12:54:53.387302 [**] [1:2101071:7] GPL WEB_SERVER .htpasswd access [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 185.199.110.42:63493 -> 10.44.30.10:80
+05/14-12:55:45.534830 [**] [1:2015737:5] ET WEB_SERVER PHPMyAdmin BackDoor Access [**] [Classification: web-application-attack] [Priority: 1] {TCP} 185.199.110.42:58780 -> 10.44.30.10:80
+05/14-12:56:58.205331 [**] [1:2101852:5] GPL WEB_SERVER robots.txt access [**] [Classification: web-application-activity] [Priority: 3] {TCP} 185.199.110.42:58865 -> 10.44.30.10:80

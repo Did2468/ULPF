@@ -1,0 +1,13 @@
+{
+  "classes": [
+    "cisco_asa",
+    "miscellaneous",
+    "proxy_access",
+    "snort_alert",
+    "syslog",
+    "web_access",
+    "zeek_conn",
+    "zeek_dns",
+    "zeek_http"
+  ]
+}

@@ -1,0 +1,10 @@
+<5>1 2024-05-14T12:00:13.245802Z WEB-BO-01 kernel - - - [2246413.245802] [UFW BLOCK] IN=ens192 OUT= SRC=74.172.69.175 DST=10.44.30.10 LEN=48 TOS=0x00 PREC=0x00 TTL=41 ID=7964 PROTO=TCP SPT=2027 DPT=110 WINDOW=14600 RES=0x00 SYN URGP=0
+<86>1 2024-05-14T12:00:39.083920Z WEB-BO-01 sshd 478027 - - pam_unix(sshd:session): session closed for user nina.kapoor
+<86>1 2024-05-14T12:00:40.023689Z WEB-BO-01 systemd-logind 16836 - - Removed session 299306.
+<30>1 2024-05-14T12:01:01.540892Z WEB-BO-01 dbus-daemon 16829 - - [system] Activating via systemd: service name='org.freedesktop.login1' unit='dbus-org.freedesktop.login1.service' requested by ':1.236'
+<85>1 2024-05-14T12:02:35.199156Z WEB-BO-01 sudo 490531 - - backup : TTY=pts/21 ; PWD=/etc ; USER=root ; COMMAND=/usr/bin/apt-get -s upgrade
+<86>1 2024-05-14T12:02:35.431156Z WEB-BO-01 sudo 490531 - - pam_unix(sudo:session): session opened for user root(uid=0) by backup(uid=3037)
+<30>1 2024-05-14T12:02:37.977763Z WEB-BO-01 snapd 16856 - - snapmgr.go:523: refresh candidates checked for core20
+<78>1 2024-05-14T12:01:00.047000Z PROXY-BO-01 CRON 1304613 - - (sysstat) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+<30>1 2024-05-14T12:01:11.909196Z PROXY-BO-01 polkitd 22038 - - Operator of unix-process:1304637:60487151 successfully authenticated as unix-user:deploy to gain TEMPORARY authorization for action org.freedesktop.packagekit.system-update for system-bus-name::1.115 [/usr/bin/pkcon] (owned by unix-user:root)
+<86>1 2024-05-14T12:03:36.172941Z PROXY-BO-01 sudo 1305072 - - pam_unix(sudo:session): session closed for user root

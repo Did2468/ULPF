@@ -1,0 +1,8 @@
+<166>May 14 12:00:13 FW-BO-EDGE %ASA-6-302013: Built inbound TCP connection 1206841 for outside:74.172.69.175/2027 (74.172.69.175/2027) to dmz:10.44.30.10/110 (45.83.220.5/110)
+<166>May 14 12:00:18 FW-BO-EDGE %ASA-6-302015: Built inbound UDP connection 1206848 for outside:37.75.195.175/59676 (37.75.195.175/59676) to dmz:10.44.30.10/53 (45.83.220.5/53)
+<166>May 14 12:00:18 FW-BO-EDGE %ASA-6-302016: Teardown UDP connection 1206848 for outside:37.75.195.175/59676 to dmz:10.44.30.10/53 duration 0:00:00 bytes 2260
+<166>May 14 12:00:43 FW-BO-EDGE %ASA-6-302014: Teardown TCP connection 1206841 for outside:74.172.69.175/2027 to dmz:10.44.30.10/110 duration 0:00:30 bytes 0 SYN Timeout
+<166>May 14 12:00:53 FW-BO-EDGE %ASA-6-302014: Teardown TCP connection 1206870 for outside:87.18.24.193/60837 to dmz:10.44.30.10/443 duration 0:00:02 bytes 2907 TCP Reset-O
+<166>May 14 12:00:55 FW-BO-EDGE %ASA-6-302014: Teardown TCP connection 1206876 for outside:217.95.232.19/62181 to dmz:10.44.30.10/443 duration 0:00:01 bytes 199989 TCP FINs
+<164>May 14 12:01:07 FW-BO-EDGE %ASA-4-106023: Deny tcp src outside:203.0.113.9/51234 dst dmz:10.44.30.10/22 by access-group "OUTSIDE_IN" [0x0, 0x0]
+<166>May 14 12:01:09 FW-BO-EDGE %ASA-6-302020: Built inbound ICMP connection for faddr 37.75.195.175/0 gaddr 45.83.220.5/0 laddr 10.44.30.10/0

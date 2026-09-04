@@ -1,0 +1,4 @@
+217.95.232.19 - - [14/May/2024:12:00:51 +0000] "GET /blog HTTP/1.1" 200 36546 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+217.95.232.19 - - [14/May/2024:12:00:54 +0000] "GET /assets/img/content/05a0a870.jpg HTTP/1.1" 200 184688 "https://portal.northstarclaims.net/blog" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+25.66.98.126 - - [14/May/2024:12:04:48 +0000] "GET / HTTP/1.1" 301 226 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+185.249.5.220 - - [14/May/2024:12:05:14 +0000] "GET /favicon.ico HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"
