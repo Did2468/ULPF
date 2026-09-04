@@ -5,7 +5,7 @@ A vendor-agnostic pipeline that turns heterogeneous perimeter network device log
 JSON, CEF-like, or plain-text form) into a single, lossless, ECS-normalized event
 schema, ready for SIEM ingestion, correlation, threat hunting, and ML analytics.
 
-Built for the "Universal Log Standard" hackathon problem statement — see
+Built for the "Universal Log Pre-processing Framework" Smart India Hackathon problem statement problem number-26156.see
 [Problem statement coverage](#problem-statement-coverage) below for how each
 requirement is met.
 
