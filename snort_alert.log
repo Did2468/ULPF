@@ -1,0 +1,55 @@
+05/14-12:02:39.796669 [**] [1:366:1] PROTOCOL-ICMP PING BSDtype [**] [Classification: Generic ICMP event] [Priority: 3] {ICMP} 37.75.195.175 -> 10.44.30.10
+05/14-12:33:04.677648 [**] [1:2003068:6] ET SCAN ICMP Unusual PING detected [**] [Classification: Attempted Information Leak] [Priority: 2] {ICMP} 45.33.74.51 -> 10.44.30.10
+05/14-12:33:24.536688 [**] [1:366:1] PROTOCOL-ICMP PING BSDtype [**] [Classification: Generic ICMP event] [Priority: 3] {ICMP} 45.33.74.51 -> 10.44.30.10
+05/14-12:33:37.235802 [**] [1:366:1] PROTOCOL-ICMP PING BSDtype [**] [Classification: Generic ICMP event] [Priority: 3] {ICMP} 37.75.195.175 -> 10.44.30.10
+05/14-12:43:20.795234 [**] [1:384:1] PROTOCOL-ICMP PING [**] [Classification: Generic ICMP event] [Priority: 3] {ICMP} 38.186.148.245 -> 10.44.30.10
+05/14-12:49:46.829246 [**] [1:2003068:6] ET SCAN ICMP Unusual PING detected [**] [Classification: Attempted Information Leak] [Priority: 2] {ICMP} 145.78.103.167 -> 10.44.30.10
+05/14-12:54:38.712337 [**] [1:2002677:14] ET SCAN Nikto Web App Scan in Progress [**] [Classification: web-application-attack] [Priority: 2] {TCP} 185.199.110.42:65020 -> 10.44.30.10:80
+05/14-12:54:53.387302 [**] [1:2101071:7] GPL WEB_SERVER .htpasswd access [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 185.199.110.42:63493 -> 10.44.30.10:80
+05/14-12:54:55.609651 [**] [1:2101411:6] GPL WEB_SERVER 403 Forbidden [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 185.199.110.42:62563 -> 10.44.30.10:80
+05/14-12:55:30.061286 [**] [1:2002910:4] ET SCAN Rapid HTTP/HTTPS Connection Attempts [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 185.199.110.42:49988 -> 10.44.30.10:80
+05/14-12:55:39.381955 [**] [1:2101234:4] GPL WEB_SERVER Apache server-status access [**] [Classification: web-application-activity] [Priority: 2] {TCP} 185.199.110.42:60542 -> 10.44.30.10:80
+05/14-12:55:45.534830 [**] [1:2015737:5] ET WEB_SERVER PHPMyAdmin BackDoor Access [**] [Classification: web-application-attack] [Priority: 1] {TCP} 185.199.110.42:58780 -> 10.44.30.10:80
+05/14-12:55:56.106206 [**] [1:2014020:3] ET WEB_SERVER Wordpress Login Bruteforcing Detected [**] [Classification: web-application-attack] [Priority: 2] {TCP} 185.199.110.42:56940 -> 10.44.30.10:80
+05/14-12:56:01.098562 [**] [1:2101129:7] GPL WEB_SERVER .htaccess access [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 185.199.110.42:54790 -> 10.44.30.10:80
+05/14-12:56:08.388594 [**] [1:2034567:2] ET WEB_SERVER .env File Access Attempt [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 185.199.110.42:57870 -> 10.44.30.10:80
+05/14-12:56:58.205331 [**] [1:2101852:5] GPL WEB_SERVER robots.txt access [**] [Classification: web-application-activity] [Priority: 3] {TCP} 185.199.110.42:58865 -> 10.44.30.10:80
+05/14-12:57:00.425712 [**] [1:2002910:4] ET SCAN Rapid HTTP/HTTPS Connection Attempts [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 185.199.110.42:59664 -> 10.44.30.10:80
+05/14-12:57:29.857527 [**] [1:2015737:5] ET WEB_SERVER PHPMyAdmin BackDoor Access [**] [Classification: web-application-attack] [Priority: 1] {TCP} 185.199.110.42:61968 -> 10.44.30.10:80
+05/14-12:57:36.191581 [**] [1:2101852:5] GPL WEB_SERVER robots.txt access [**] [Classification: web-application-activity] [Priority: 3] {TCP} 185.199.110.42:59558 -> 10.44.30.10:80
+05/14-13:42:08.587144 [**] [1:382:1] PROTOCOL-ICMP PING Linux [**] [Classification: Generic ICMP event] [Priority: 3] {ICMP} 156.32.3.55 -> 10.44.30.10
+05/14-13:48:02.936732 [**] [1:2003068:6] ET SCAN ICMP Unusual PING detected [**] [Classification: Attempted Information Leak] [Priority: 2] {ICMP} 145.78.103.167 -> 10.44.30.10
+05/14-13:48:02.960801 [**] [1:384:1] PROTOCOL-ICMP PING [**] [Classification: Generic ICMP event] [Priority: 3] {ICMP} 145.78.103.167 -> 10.44.30.10
+05/14-13:57:27.405196 [**] [1:384:1] PROTOCOL-ICMP PING [**] [Classification: Generic ICMP event] [Priority: 3] {ICMP} 45.33.74.51 -> 10.44.30.10
+05/14-14:23:31.683089 [**] [1:2003068:6] ET SCAN ICMP Unusual PING detected [**] [Classification: Attempted Information Leak] [Priority: 2] {ICMP} 145.78.103.167 -> 10.44.30.10
+05/14-14:33:16.134817 [**] [1:2000575:8] ET SCAN ICMP PING IPTools [**] [Classification: Attempted Information Leak] [Priority: 3] {ICMP} 175.29.181.188 -> 10.44.30.10
+05/14-14:40:13.475076 [**] [1:366:1] PROTOCOL-ICMP PING BSDtype [**] [Classification: Generic ICMP event] [Priority: 3] {ICMP} 45.33.74.51 -> 10.44.30.10
+05/14-14:40:13.496078 [**] [1:384:1] PROTOCOL-ICMP PING [**] [Classification: Generic ICMP event] [Priority: 3] {ICMP} 45.33.74.51 -> 10.44.30.10
+05/14-14:44:46.161048 [**] [1:366:1] PROTOCOL-ICMP PING BSDtype [**] [Classification: Generic ICMP event] [Priority: 3] {ICMP} 37.75.195.175 -> 10.44.30.10
+05/14-14:50:44.793742 [**] [1:2000575:8] ET SCAN ICMP PING IPTools [**] [Classification: Attempted Information Leak] [Priority: 3] {ICMP} 185.249.5.220 -> 10.44.30.10
+05/14-15:18:15.746205 [**] [1:366:1] PROTOCOL-ICMP PING BSDtype [**] [Classification: Generic ICMP event] [Priority: 3] {ICMP} 145.78.103.167 -> 10.44.30.10
+05/14-15:25:46.421507 [**] [1:2003068:6] ET SCAN ICMP Unusual PING detected [**] [Classification: Attempted Information Leak] [Priority: 2] {ICMP} 156.32.3.55 -> 10.44.30.10
+05/14-15:27:17.505856 [**] [1:382:1] PROTOCOL-ICMP PING Linux [**] [Classification: Generic ICMP event] [Priority: 3] {ICMP} 185.249.5.220 -> 10.44.30.10
+05/14-15:33:40.810220 [**] [1:2003068:6] ET SCAN ICMP Unusual PING detected [**] [Classification: Attempted Information Leak] [Priority: 2] {ICMP} 145.78.103.167 -> 10.44.30.10
+05/14-15:33:40.819304 [**] [1:2000575:8] ET SCAN ICMP PING IPTools [**] [Classification: Attempted Information Leak] [Priority: 3] {ICMP} 145.78.103.167 -> 10.44.30.10
+05/14-15:33:40.849197 [**] [1:366:1] PROTOCOL-ICMP PING BSDtype [**] [Classification: Generic ICMP event] [Priority: 3] {ICMP} 145.78.103.167 -> 10.44.30.10
+05/14-15:45:34.389626 [**] [1:2009714:9] ET WEB_SERVER Possible SQL Injection Attempt UNION SELECT [**] [Classification: web-application-attack] [Priority: 1] {TCP} 145.78.103.167:52716 -> 10.44.30.10:80
+05/14-15:56:25.029862 [**] [1:2003068:6] ET SCAN ICMP Unusual PING detected [**] [Classification: Attempted Information Leak] [Priority: 2] {ICMP} 74.172.69.175 -> 10.44.30.10
+05/14-15:58:26.351379 [**] [1:2000575:8] ET SCAN ICMP PING IPTools [**] [Classification: Attempted Information Leak] [Priority: 3] {ICMP} 38.186.148.245 -> 10.44.30.10
+05/14-15:58:26.363917 [**] [1:2003068:6] ET SCAN ICMP Unusual PING detected [**] [Classification: Attempted Information Leak] [Priority: 2] {ICMP} 38.186.148.245 -> 10.44.30.10
+05/14-16:29:28.391157 [**] [1:2000575:8] ET SCAN ICMP PING IPTools [**] [Classification: Attempted Information Leak] [Priority: 3] {ICMP} 45.33.74.51 -> 10.44.30.10
+05/14-16:38:16.818924 [**] [1:2003068:6] ET SCAN ICMP Unusual PING detected [**] [Classification: Attempted Information Leak] [Priority: 2] {ICMP} 38.186.148.245 -> 10.44.30.10
+05/14-16:38:16.894141 [**] [1:382:1] PROTOCOL-ICMP PING Linux [**] [Classification: Generic ICMP event] [Priority: 3] {ICMP} 38.186.148.245 -> 10.44.30.10
+05/14-16:38:16.975798 [**] [1:384:1] PROTOCOL-ICMP PING [**] [Classification: Generic ICMP event] [Priority: 3] {ICMP} 38.186.148.245 -> 10.44.30.10
+05/14-16:42:48.149082 [**] [1:382:1] PROTOCOL-ICMP PING Linux [**] [Classification: Generic ICMP event] [Priority: 3] {ICMP} 37.75.195.175 -> 10.44.30.10
+05/14-16:45:38.552029 [**] [1:384:1] PROTOCOL-ICMP PING [**] [Classification: Generic ICMP event] [Priority: 3] {ICMP} 37.75.195.175 -> 10.44.30.10
+05/14-16:45:38.576593 [**] [1:366:1] PROTOCOL-ICMP PING BSDtype [**] [Classification: Generic ICMP event] [Priority: 3] {ICMP} 37.75.195.175 -> 10.44.30.10
+05/14-16:56:21.253913 [**] [1:382:1] PROTOCOL-ICMP PING Linux [**] [Classification: Generic ICMP event] [Priority: 3] {ICMP} 185.249.5.220 -> 10.44.30.10
+05/14-17:10:35.136283 [**] [1:2003068:6] ET SCAN ICMP Unusual PING detected [**] [Classification: Attempted Information Leak] [Priority: 2] {ICMP} 38.186.148.245 -> 10.44.30.10
+05/14-17:21:55.175795 [**] [1:366:1] PROTOCOL-ICMP PING BSDtype [**] [Classification: Generic ICMP event] [Priority: 3] {ICMP} 156.32.3.55 -> 10.44.30.10
+05/14-17:23:41.055109 [**] [1:382:1] PROTOCOL-ICMP PING Linux [**] [Classification: Generic ICMP event] [Priority: 3] {ICMP} 37.75.195.175 -> 10.44.30.10
+05/14-17:24:07.971772 [**] [1:382:1] PROTOCOL-ICMP PING Linux [**] [Classification: Generic ICMP event] [Priority: 3] {ICMP} 37.75.195.175 -> 10.44.30.10
+05/14-17:24:08.055707 [**] [1:382:1] PROTOCOL-ICMP PING Linux [**] [Classification: Generic ICMP event] [Priority: 3] {ICMP} 37.75.195.175 -> 10.44.30.10
+05/14-17:40:46.777067 [**] [1:2003068:6] ET SCAN ICMP Unusual PING detected [**] [Classification: Attempted Information Leak] [Priority: 2] {ICMP} 45.33.74.51 -> 10.44.30.10
+05/14-17:46:42.718220 [**] [1:366:1] PROTOCOL-ICMP PING BSDtype [**] [Classification: Generic ICMP event] [Priority: 3] {ICMP} 145.78.103.167 -> 10.44.30.10
+05/14-17:46:42.728781 [**] [1:2000575:8] ET SCAN ICMP PING IPTools [**] [Classification: Attempted Information Leak] [Priority: 3] {ICMP} 145.78.103.167 -> 10.44.30.10
