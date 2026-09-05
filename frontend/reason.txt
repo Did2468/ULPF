@@ -1,0 +1,1 @@
+The sole purpose of this streamlit application is just to show a prototype.This is not a real project feature,since the requirements is huge a application approach is not a optimized solution.The core framework is still intact and anyone can run the project independenlty just using docker file provided.
