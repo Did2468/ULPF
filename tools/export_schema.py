@@ -1,4 +1,5 @@
-import json, sys
+import json, os, sys
+sys.path.insert(0, os.getcwd())
 from ulpf.schema import ECS_FIELDS, ULPF_FIELDS, ECS_VERSION, ULPF_SCHEMA_VERSION
 
 if "--opensearch" in sys.argv:                        # index template mapping
